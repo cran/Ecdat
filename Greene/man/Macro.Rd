@@ -3,12 +3,15 @@
 \alias{Macro}
 \title{Macroeconomics Data Set}
 \description{
-  quarterly  observations from 1950-1 to 2000-1\cr
+  quarterly  observations from 1950-1 to 2000-1
 
- \emph{number of observations} :  204 \cr
-   \emph{observation} :  country \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  204
+
+ \emph{observation} :  country
+
+   \emph{country} :  United States
+
+}
 \usage{data(Macro)}
 \format{A dataframe containing :
   \describe{
@@ -29,11 +32,11 @@
   }
 }
 \source{
-    Department of Commerce, BEA website      . \cr
-    \url{www.economagic.com}. \cr
+    Department of Commerce, BEA website      .
+    \url{www.economagic.com}.
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F5.1. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F5.1.
 }
-\section{Original description}{``Quarterly, 1950I to 2000IV.''}
+\section{Original description}{\dQuote{Quarterly, 1950I to 2000IV.}}
 \keyword{datasets}

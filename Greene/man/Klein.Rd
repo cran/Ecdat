@@ -3,12 +3,15 @@
 \alias{Klein}
 \title{Klein's Model I}
 \description{
-  yearly observations from 1920 to 1941\cr
+  yearly observations from 1920 to 1941
 
- \emph{number of observations} :  22 \cr
-   \emph{observation} :  country \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  22
+
+ \emph{observation} :  country
+
+   \emph{country} :  United States
+
+}
 \usage{data(Klein)}
 \format{A dataframe containing :
   \describe{
@@ -25,10 +28,10 @@
   }
 }
 \source{
-    Klein, L. (1950) \emph{Economic fluctuations in the United States, 1921-1941}, New York, John Wiley and Sons. \cr
+    Klein, L. (1950) \emph{Economic fluctuations in the United States, 1921-1941}, New York, John Wiley and Sons.
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F15.1. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F15.1.
 }
-\section{Original description}{``22 yearly observations, 1920-1941.''}
+\section{Original description}{\dQuote{22 yearly observations, 1920-1941.}}
 \keyword{datasets}

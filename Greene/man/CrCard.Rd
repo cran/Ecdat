@@ -3,12 +3,15 @@
 \alias{CrCard}
 \title{Expenditure and Default Data}
 \description{
-  a cross-section\cr
+  a cross-section
 
- \emph{number of observations} :  1319 \cr
-   \emph{observation} :  individuals \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  1319
+
+ \emph{observation} :  individuals
+
+   \emph{country} :  United States
+
+}
 \usage{data(CrCard)}
 \format{A dataframe containing :
   \describe{
@@ -28,10 +31,10 @@
   }
 }
 \source{
-    Greene, W.H. (1992) \emph{A statistical model for credit scoring}, Working Paper No Ec-92-29, New York University, Departement of Economics, Stern School of Business . \cr
+    Greene, W.H. (1992) \emph{A statistical model for credit scoring}, Working Paper No Ec-92-29, New York University, Departement of Economics, Stern School of Business .
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F21-4. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F21-4.
 }
-\section{Original description}{``1319 Observations.''}
+\section{Original description}{\dQuote{1319 Observations.}}
 \keyword{datasets}

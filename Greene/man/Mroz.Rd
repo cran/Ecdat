@@ -1,15 +1,18 @@
-\name{Mro}
+\name{Mroz}
 \docType{data}
-\alias{Mro}
+\alias{Mroz}
 \title{Labor supply data}
 \description{
-  a cross-section\cr
+  a cross-section
 
- \emph{number of observations} :  753 \cr
-   \emph{observation} :  individuals \cr
-   \emph{country} :  United States \cr
-    }
-\usage{data(Mro)}
+ \emph{number of observations} :  753
+
+ \emph{observation} :  individuals
+
+   \emph{country} :  United States
+
+}
+\usage{data(Mroz)}
 \format{A dataframe containing :
   \describe{
     \item{LFP}{a dummy variable = 1 if woman worked in 1975, else 0}
@@ -34,11 +37,11 @@
   }
 }
 \source{
-    Mroz, T. (1987) ``The sensivity of an empirical model of married women's hours of work to economic and statistical assumptions'', \emph{Econometrica }, \bold{55}, 765-799. \cr
-    1976 Panel Study of Income Dynamics. \cr
+    Mroz, T. (1987) \dQuote{The sensivity of an empirical model of married women's hours of work to economic and statistical assumptions}, \emph{Econometrica }, \bold{55}, 765-799.
+    1976 Panel Study of Income Dynamics.
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F4.1. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F4.1.
 }
-\section{Original description}{``from Mroz (1987).''}
+\section{Original description}{\dQuote{from Mroz (1987).}}
 \keyword{datasets}

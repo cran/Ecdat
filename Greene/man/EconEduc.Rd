@@ -3,12 +3,15 @@
 \alias{EconEduc}
 \title{Program Effectiveness}
 \description{
-  a cross-section\cr
+  a cross-section
 
- \emph{number of observations} :  32 \cr
-   \emph{observation} :  individuals \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  32
+
+ \emph{observation} :  individuals
+
+   \emph{country} :  United States
+
+}
 \usage{data(EconEduc)}
 \format{A dataframe containing :
   \describe{
@@ -20,10 +23,10 @@
   }
 }
 \source{
-    Spector, L.  and  M.  Mazzeo (1980) ``Probit analysis and economic education'', \emph{Journal of Economic Education }, \bold{11}, 37-44. \cr
+    Spector, L.  and  M.  Mazzeo (1980) \dQuote{Probit analysis and economic education}, \emph{Journal of Economic Education }, \bold{11}, 37-44.
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F21.1. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F21.1.
 }
-\section{Original description}{``32 cross section observations.''}
+\section{Original description}{\dQuote{32 cross section observations.}}
 \keyword{datasets}

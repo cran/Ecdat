@@ -3,12 +3,15 @@
 \alias{ExchRate}
 \title{Boolerslev and Ghysels Exchange Rate Data}
 \description{
-  daily observations from  to \cr
+  daily observations from  to 
 
- \emph{number of observations} :  1974 \cr
-   \emph{observation} :  country \cr
-   \emph{country} :  Germany \cr
-    }
+ \emph{number of observations} :  1974
+
+ \emph{observation} :  country
+
+   \emph{country} :  Germany
+
+}
 \usage{data(ExchRate)}
 \format{A dataframe containing :
   \describe{
@@ -16,10 +19,10 @@
   }
 }
 \source{
-    Bollerslev, T. (1986) ``Generalized autoregressive conditional heteroscedasticity'', \emph{Journal of Econometrics }, \bold{31}, 307-327. \cr
+    Bollerslev, T. (1986) \dQuote{Generalized autoregressive conditional heteroscedasticity}, \emph{Journal of Econometrics }, \bold{31}, 307-327.
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F11.1. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F11.1.
 }
-\section{Original description}{``1974 daily observations.''}
+\section{Original description}{\dQuote{1974 daily observations.}}
 \keyword{datasets}

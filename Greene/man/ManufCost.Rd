@@ -3,12 +3,15 @@
 \alias{ManufCost}
 \title{Manufacturing Costs}
 \description{
-  annual observations from 1947 to 1971\cr
+  annual observations from 1947 to 1971
 
- \emph{number of observations} :  25 \cr
-   \emph{observation} :  country \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  25
+
+ \emph{observation} :  country
+
+   \emph{country} :  United States
+
+}
 \usage{data(ManufCost)}
 \format{A dataframe containing :
   \describe{
@@ -25,10 +28,10 @@
   }
 }
 \source{
-    Berndt, E.  and  D.  Wood (1975) ``Technology, prices and the derived demand for energy'', \emph{Journal of Economics and Statistics }, \bold{57}, 376-384. \cr
+    Berndt, E.  and  D.  Wood (1975) \dQuote{Technology, prices and the derived demand for energy}, \emph{Journal of Economics and Statistics }, \bold{57}, 376-384.
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F14.1. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F14.1.
 }
-\section{Original description}{``U.S. economy, 25 yearly observations, 1947-1971.''}
+\section{Original description}{\dQuote{U.S. economy, 25 yearly observations, 1947-1971.}}
 \keyword{datasets}

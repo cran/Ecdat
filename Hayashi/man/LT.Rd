@@ -3,12 +3,15 @@
 \alias{LT}
 \title{Dollar Sterling Exchange Rate}
 \description{
-  yearly  observations from 1791 to 1990\cr
+  yearly  observations from 1791 to 1990
 
- \emph{number of observations} :  200 \cr
-   \emph{observation} :  country \cr
-   \emph{country} :  United Kingdown \cr
-    }
+ \emph{number of observations} :  200
+
+ \emph{observation} :  country
+
+   \emph{country} :  United Kingdown
+
+}
 \usage{data(LT)}
 \format{A dataframe containing :
   \describe{
@@ -19,9 +22,9 @@
   }
 }
 \source{
-    Lothian, J.  and  M.  Taylor (1996) ``Real exchange rate behavior: the recent float from the perspective of the past two centuries'', \emph{Journal of Political Economy }, \bold{104}, 488-509. \cr
+    Lothian, J.  and  M.  Taylor (1996) \dQuote{Real exchange rate behavior: the recent float from the perspective of the past two centuries}, \emph{Journal of Political Economy }, \bold{104}, 488-509.
 }
 \references{
-    Hayashi, F. (2000) \emph{Econometrics}, Princeton University Press, chapter 9, 613-621. \cr
+    Hayashi, F. (2000) \emph{Econometrics}, Princeton University Press, chapter 9, 613-621.
 }
 \keyword{datasets}

@@ -3,12 +3,15 @@
 \alias{Grilic}
 \title{Wage Datas}
 \description{
-  a cross-section from 1980\cr
+  a cross-section from 1980
 
- \emph{number of observations} :  758 \cr
-   \emph{observation} :  individual \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  758
+
+ \emph{observation} :  individual
+
+   \emph{country} :  United States
+
+}
 \usage{data(Grilic)}
 \format{A dataframe containing :
   \describe{
@@ -35,10 +38,10 @@
   }
 }
 \source{
-    Blackburn, M.  and   Neumark D. (1992) ``Unobserved ability, efficiency wages, and interindustry wage differentials'', \emph{Quarterly Journal of Economics }, \bold{107}, 1421-1436. \cr
+    Blackburn, M.  and   Neumark D. (1992) \dQuote{Unobserved ability, efficiency wages, and interindustry wage differentials}, \emph{Quarterly Journal of Economics }, \bold{107}, 1421-1436.
 }
 \references{
-    Hayashi, F. (2000) \emph{Econometrics}, Princeton University Press, chapter 3, 250-256. \cr
+    Hayashi, F. (2000) \emph{Econometrics}, Princeton University Press, chapter 3, 250-256.
 }
-\section{Original description}{``758 observations at two points in time.''}
+\section{Original description}{\dQuote{758 observations at two points in time.}}
 \keyword{datasets}

@@ -3,12 +3,15 @@
 \alias{Mishkin}
 \title{Inflation and Interest Rates}
 \description{
-  quarterly observations from 1950-2 to 1990-12\cr
+  quarterly observations from 1950-2 to 1990-12
 
- \emph{number of observations} :  491 \cr
-   \emph{observation} :  country \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  491
+
+ \emph{observation} :  country
+
+   \emph{country} :  United States
+
+}
 \usage{data(Mishkin)}
 \format{A dataframe containing :
   \describe{
@@ -22,9 +25,9 @@
   }
 }
 \source{
-    Mishkin, F. (1992) ``Is the Fisher effect for real ?'', \emph{Journal of Monetary Economics }, \bold{30}, 195-215. \cr
+    Mishkin, F. (1992) \dQuote{Is the Fisher effect for real ?}, \emph{Journal of Monetary Economics }, \bold{30}, 195-215.
 }
 \references{
-    Hayashi, F. (2000) \emph{Econometrics}, Princeton University Press, chapter 2, 176-184. \cr
+    Hayashi, F. (2000) \emph{Econometrics}, Princeton University Press, chapter 2, 176-184.
 }
 \keyword{datasets}

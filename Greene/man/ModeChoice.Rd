@@ -3,12 +3,15 @@
 \alias{ModeChoice}
 \title{Data to Study Travel Mode Choice}
 \description{
-  a cross-section\cr
+  a cross-section
 
- \emph{number of observations} :  840 \cr
-   \emph{observation} :  individuals \cr
-   \emph{country} :  Australia \cr
-    }
+ \emph{number of observations} :  840
+
+ \emph{observation} :  individuals
+
+   \emph{country} :  Australia
+
+}
 \usage{data(ModeChoice)}
 \format{A dataframe containing :
   \describe{
@@ -22,10 +25,10 @@
   }
 }
 \source{
-    Green, W.H.  and  D.  Hensher (1997) \emph{Multinomial logit and discret choice models} \emph{in}  Green, W. H. (1997) \emph{LIMDEP version 7.0 user's manual revised}, Plainview, New York econometric software, Inc. . \cr
+    Green, W.H.  and  D.  Hensher (1997) \emph{Multinomial logit and discret choice models} \emph{in}  Green, W. H. (1997) \emph{LIMDEP version 7.0 user's manual revised}, Plainview, New York econometric software, Inc. .
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F21.2. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F21.2.
 }
-\section{Original description}{``840 observations, on 4 modes for 210 individuals.''}
+\section{Original description}{\dQuote{840 observations, on 4 modes for 210 individuals.}}
 \keyword{datasets}

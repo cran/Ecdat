@@ -3,12 +3,15 @@
 \alias{Gasoline}
 \title{The U.S. Gasoline Market}
 \description{
-  annual observations from 1960 to 1995\cr
+  annual observations from 1960 to 1995
 
- \emph{number of observations} :  36 \cr
-   \emph{observation} :  country \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  36
+
+ \emph{observation} :  country
+
+   \emph{country} :  United States
+
+}
 \usage{data(Gasoline)}
 \format{A dataframe containing :
   \describe{
@@ -26,10 +29,10 @@
   }
 }
 \source{
-    Consil of Economic Advisors, Economic Report of the President:   1996 ( Washington, D.C.: U.S. Government Printing Office, 1996). \cr
+    Consil of Economic Advisors, Economic Report of the President:   1996 ( Washington, D.C.: U.S. Government Printing Office, 1996).
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F2-2. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F2-2.
 }
-\section{Original description}{``36 yearly observations, 1960-1995.''}
+\section{Original description}{\dQuote{36 yearly observations, 1960-1995.}}
 \keyword{datasets}

@@ -3,12 +3,11 @@
 \alias{Accident}
 \title{Ship Accidents}
 \description{
-  a cross-section\cr
+  a cross-section
 
- \emph{number of observations} :  40 \cr
-   \emph{observation} :   \cr
-   \emph{country} :   \cr
-    }
+ \emph{number of observations} :  40
+
+}
 \usage{data(Accident)}
 \format{A dataframe containing :
   \describe{
@@ -29,10 +28,10 @@
   }
 }
 \source{
-    McCullagh, P.  and  J.  Nelder (1983) \emph{Generalized linear methods}, New York:Chapman and Hall.. \cr
+    McCullagh, P.  and  J.  Nelder (1983) \emph{Generalized linear methods}, New York:Chapman and Hall..
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F21.3. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F21.3.
 }
-\section{Original description}{``40 observations on 5 types in 4 vintages and 2 service periods.''}
+\section{Original description}{\dQuote{40 observations on 5 types in 4 vintages and 2 service periods.}}
 \keyword{datasets}

@@ -3,12 +3,15 @@
 \alias{Money}
 \title{Money, Output and Price Deflator Data}
 \description{
-  quarterly observations from 1950-1 to 1983-4\cr
+  quarterly observations from 1950-1 to 1983-4
 
- \emph{number of observations} :  136 \cr
-   \emph{observation} :  country \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  136
+
+ \emph{observation} :  country
+
+   \emph{country} :  United States
+
+}
 \usage{data(Money)}
 \format{A dataframe containing :
   \describe{
@@ -19,10 +22,10 @@
   }
 }
 \source{
-    National income and product accounts, U.S. Department of Commerce, Bureau of Economic Analysis, Survey of Current Business: Business Statistics. \cr
+    National income and product accounts, U.S. Department of Commerce, Bureau of Economic Analysis, Survey of Current Business: Business Statistics.
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F20.2. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F20.2.
 }
-\section{Original description}{``136 quaterly data observations, 1950-1983.''}
+\section{Original description}{\dQuote{136 quaterly data observations, 1950-1983.}}
 \keyword{datasets}

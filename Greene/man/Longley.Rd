@@ -3,12 +3,15 @@
 \alias{Longley}
 \title{The Longley Data}
 \description{
-  annual observations from 1947 to 1962\cr
+  annual observations from 1947 to 1962
 
- \emph{number of observations} :  16 \cr
-   \emph{observation} :  country \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  16
+
+ \emph{observation} :  country
+
+   \emph{country} :  United States
+
+}
 \usage{data(Longley)}
 \format{A dataframe containing :
   \describe{
@@ -20,10 +23,10 @@
   }
 }
 \source{
-    Longley, J. (1967) ``An appraisal of least squares programs from the point of view of the user'', \emph{Journal of the American Statistical Association }, \bold{62}, 819-841. \cr
+    Longley, J. (1967) \dQuote{An appraisal of least squares programs from the point of view of the user}, \emph{Journal of the American Statistical Association }, \bold{62}, 819-841.
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F4.2. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F4.2.
 }
-\section{Original description}{``16 yearly observations, 1947-1962.''}
+\section{Original description}{\dQuote{16 yearly observations, 1947-1962.}}
 \keyword{datasets}

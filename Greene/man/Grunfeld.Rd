@@ -3,12 +3,15 @@
 \alias{Grunfeld}
 \title{Grunfeld Investment Data}
 \description{
-  a panel of 5 observations  from 1935  to 1954\cr
+  a panel of 5 observations  from 1935  to 1954
 
- \emph{number of observations} :  100 \cr
-   \emph{observation} :  firms \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  100
+
+ \emph{observation} :  firms
+
+   \emph{country} :  United States
+
+}
 \usage{data(Grunfeld)}
 \format{A dataframe containing :
   \describe{
@@ -20,10 +23,10 @@
   }
 }
 \source{
-    Moody's Industrial Manual, Survey of Current Business. \cr
+    Moody's Industrial Manual, Survey of Current Business.
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F13.1. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F13.1.
 }
-\section{Original description}{``100 yearly observations on 5 firms for 1935-1954.''}
+\section{Original description}{\dQuote{100 yearly observations on 5 firms for 1935-1954.}}
 \keyword{datasets}

@@ -3,12 +3,15 @@
 \alias{Income}
 \title{Income and Expenditure Data}
 \description{
-  a cross-section\cr
+  a cross-section
 
- \emph{number of observations} :  100 \cr
-   \emph{observation} :  individuals \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  100
+
+ \emph{observation} :  individuals
+
+   \emph{country} :  United States
+
+}
 \usage{data(Income)}
 \format{A dataframe containing :
   \describe{
@@ -22,10 +25,10 @@
   }
 }
 \source{
-    Greene, W.H. (1992) \emph{A statistical model for credit scoring}, Working Paper No Ec-92-29, New York University, Departement of Economics, Stern School of Business . \cr
+    Greene, W.H. (1992) \emph{A statistical model for credit scoring}, Working Paper No Ec-92-29, New York University, Departement of Economics, Stern School of Business .
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F9.1. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F9.1.
 }
-\section{Original description}{``100 cross-section observations.''}
+\section{Original description}{\dQuote{100 cross-section observations.}}
 \keyword{datasets}

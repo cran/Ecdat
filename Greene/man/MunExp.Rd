@@ -3,12 +3,15 @@
 \alias{MunExp}
 \title{Municipal Expenditure Data}
 \description{
-  a panel of 265 observations  from 1979  to 1987\cr
+  a panel of 265 observations  from 1979  to 1987
 
- \emph{number of observations} :  2385 \cr
-   \emph{observation} :  region \cr
-   \emph{country} :  Sweeden \cr
-    }
+ \emph{number of observations} :  2385
+
+ \emph{observation} :  region
+
+   \emph{country} :  Sweeden
+
+}
 \usage{data(MunExp)}
 \format{A dataframe containing :
   \describe{
@@ -20,9 +23,9 @@
   }
 }
 \source{
-    Dahlberg, M.  and  E.  Johanssen (2000) ``An examination of the dynamic behavior of local government using GMM boot-strapping methods'', \emph{Journal of Applied Econometrics }, \bold{21}, 333-355. \cr
+    Dahlberg, M.  and  E.  Johanssen (2000) \dQuote{An examination of the dynamic behavior of local government using GMM boot-strapping methods}, \emph{Journal of Applied Econometrics }, \bold{21}, 333-355.
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F18.1. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F18.1.
 }
 \keyword{datasets}

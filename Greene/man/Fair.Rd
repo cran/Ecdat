@@ -3,12 +3,15 @@
 \alias{Fair}
 \title{Fair's (1977) Extramarital Affairs Data}
 \description{
-  a cross-section\cr
+  a cross-section
 
- \emph{number of observations} :  601 \cr
-   \emph{observation} :  individuals \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  601
+
+ \emph{observation} :  individuals
+
+   \emph{country} :  United States
+
+}
 \usage{data(Fair)}
 \format{A dataframe containing :
   \describe{
@@ -30,11 +33,11 @@
   }
 }
 \source{
-    Fair, R. (1977) ``A note on computation of the tobit estimator'', \emph{Econometrica }, \bold{45}, 1723-1727. \cr
-    \url{http://fairmodel.econ.yale.edu/rayfait/pdf/1978ADAT.ZIP}. \cr
+    Fair, R. (1977) \dQuote{A note on computation of the tobit estimator}, \emph{Econometrica }, \bold{45}, 1723-1727.
+    \url{http://fairmodel.econ.yale.edu/rayfait/pdf/1978ADAT.ZIP}.
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall,  Table F22.2. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall,  Table F22.2.
 }
-\section{Original description}{``601 cross-section observations.''}
+\section{Original description}{\dQuote{601 cross-section observations.}}
 \keyword{datasets}

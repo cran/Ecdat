@@ -3,12 +3,15 @@
 \alias{Airline}
 \title{Cost for U.S. Airlines}
 \description{
-  a panel of 6 observations  from 1970  to 1984\cr
+  a panel of 6 observations  from 1970  to 1984
 
- \emph{number of observations} :  90 \cr
-   \emph{observation} :  firms \cr
-   \emph{country} :  United States \cr
-    }
+ \emph{number of observations} :  90
+
+ \emph{observation} :  firms
+
+   \emph{country} :  United States
+
+}
 \usage{data(Airline)}
 \format{A dataframe containing :
   \describe{
@@ -20,9 +23,9 @@
     \item{LF}{load factor, the average capacity utilization of the fleet}
   }
 }
-\note{``These data are a subset of a larger data set provided to the   author by Professor Moshe Kim. They were originally constructed by   Christensen Associates of Madison, Wisconsin.''}
+\note{\dQuote{These data are a subset of a larger data set provided to the   author by Professor Moshe Kim. They were originally constructed by   Christensen Associates of Madison, Wisconsin.}}
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F7.1. \cr
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, Table F7.1.
 }
-\section{Original description}{``90 observations on 6 firms for 1970-1984.''}
+\section{Original description}{\dQuote{90 observations on 6 firms for 1970-1984.}}
 \keyword{datasets}
