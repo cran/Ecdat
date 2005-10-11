@@ -3,9 +3,9 @@
 \alias{Grunfeld}
 \title{Grunfeld Investment Data }
 \description{
-  a panel of 5 observations  from 1935  to 1954
+  a panel of 10 observations  from 1935  to 1954
 
- \emph{number of observations} :  100
+ \emph{number of observations} :  200
 
  \emph{observation} :  production units
 
@@ -15,8 +15,8 @@
 \usage{data(Grunfeld)}
 \format{A dataframe containing :
   \describe{
-    \item{year}{date}
     \item{firm}{observation}
+    \item{year}{date}
     \item{inv}{gross Investment}
     \item{value}{value of the firm}
     \item{capital}{stock of plant and equipment}
@@ -29,6 +29,7 @@
 \references{
     Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, \url{http://www.prenhall.com/greene/greene1.html}, Table F13.1.
 
+    Baltagi, Badi H. (2003) \emph{Econometric analysis of panel data}, John Wiley and sons.
 }
 \seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
 

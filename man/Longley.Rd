@@ -1,7 +1,7 @@
 \name{Longley}
 \docType{data}
 \alias{Longley}
-\title{The Longley Data }
+\title{the Longley Data }
 \description{
   annual observations from 1947 to 1962
 

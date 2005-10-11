@@ -1,0 +1,236 @@
+O Tbrate
+T Interest rate, *GDP and inflation
+n
+t 188
+s 1950-1
+e 1996-4
+f quarterly
+C Canada
+U country
+S &CANSIM database of Statistics Canada
+B DAVID/MCKIN/04
+R chapter 2
+N r is a quarterly average of series B14001, y is the log of series D20463, pi is 400*(log(D20012/D20464))
+V r & the 91-day Treasury Bill rate
+V y & the log of real GDP
+V pi &  the inflation rate
+E macroeconomics
+
+O Doctor
+T Number of doctor visits
+n 485
+f none
+s 1986
+t
+U individuals
+V doctor & the number of doctor visits
+V children & the number of children in the household
+V access & is a measure of access to health care
+V health & a measure of health status (larger positive numbers are  associated with poorer health)
+S GURMU/97
+N There are 485 observations, all from the AFDC part of the sample
+B DAVID/MCKIN/04
+R chapter 11
+A discrete and limited dependent variables
+E consumer behaviour
+C United States
+
+O Consumption
+T Quarterly data on consumption and expenditure
+V yd &  personal disposable income, 1986 dollars
+V ce & Personal consumption expenditure, 1986 dollars
+N All data are taken from the CANSIM database of Statistics Canada. YD is series D20111 times series D20464 over series D20103. CE is series D20464
+n
+t 200
+s 1947-1
+e 1996-4
+f quarterly 
+C Canada
+H
+A
+U country
+B DAVID/MCKIN/04
+R chapter 1, 3, 4, 6, 9, 10, 14 and 15
+E macroeconomics
+
+O Participation
+T Labor force participation
+n 872
+t
+f none
+C Switzerland
+H
+A discrete and limited dependent variables
+U individuals
+B DAVID/MCKIN/04
+R chapter 11
+S GERFIN/96
+V lfp & labour force participation ? a factor
+V lnnlinc & the log of nonlabour income
+V age & age in years divided by 10
+V educ & years of formal education
+V nyc & the number of young children (younger than 7)
+V noc &  number of older children
+V foreign &   foreigner ? a factor
+E labor economics
+
+O Hstarts
+T Housing starts
+V hs &  the log of urban housing starts in Canada, not seasonally adjusted, CANSIM series J6001, converted to quarterly
+V hssa & the log of urban housing starts in Canada, seasonally adjusted, CANSIM series J9001, converted to quarterly. Observations prior to 1966:1 are missing
+n
+t 168
+f quarterly
+s 1960-1
+e 2001-4
+C Canada
+H
+A
+U country
+B DAVID/MCKIN/04
+R chapter 13
+
+
+O Money
+T Money, *GDP and interest rate in Canada
+V m & log of the real money supply
+V y & the log of GDP, in 1992 dollars, seasonally adjusted
+V p & the log of the price level
+V r & the 3-month treasury till rate
+N m is the log of series B1629 (M1B), converted to quarterly, minus p. y is the log of series D14872. p is the log of series D14840 divided by series D14872. r is series B14007, converted to quarterly
+S &CANSIM Database of Statistics Canada
+n
+t 128
+s 1967-1
+e 1998-4
+f quarterly
+C Canada
+H
+A
+U country
+B DAVID/MCKIN/04
+R chapter 7 and 8
+E macroeconomics
+
+O Earnings
+T Earnings for three age groups
+V age & age groups, a factor with levels (g1,g2,g3)
+V y & average annual earnings, in 1982 US dollars
+S MILLS/ZANDV/97
+N They are average annual earnings in 1988 and 1989, in 1982 US dollars, for individuals in three age groups. See the paper for details
+n 4266
+t
+f none
+C United States
+s 1988-1989
+H
+A
+U individuals
+B DAVID/MCKIN/04
+R chapter 5 and 7
+E labor economics
+
+O MW
+T Growth of disposable income and treasury bill rate
+V rdi & the rate of growth of real U.S. disposable income, seasonally adjusted
+V trate & the U.S. treasury bill rate
+S MCKIN/WHITE/85
+N Both series have been normalized, as described in the paper
+n
+t 50
+f quarterly
+s 1963-3
+e 1975-4
+C United States
+H
+A
+U country
+B DAVID/MCKIN/04
+R chapter 5
+E macroeconomics
+
+
+O CRSPmon
+T Monthly returns from the *CRSP database
+V ge & the return for General Electric, Permno 12060
+V ibm &  the return for IBM, Permno 12490
+V mobil & the return for Mobil Corporation, Permno 15966
+V crsp &  the return for the CRSP value-weighted index, including  dividends
+n
+t 360
+f monthly
+s 1969-1
+e 1998-12
+C United States
+H
+A time--series
+U production units
+B DAVID/MCKIN/04
+R chapter 13
+N All data are taken from the CRSP monthly returns database created by the Center for Research in Security Prices of the University of Chicago. They are provided, with the permission of the Center for Research in Security Prices, solely for the purpose of doing exercises from "Econometric Theory and Methods" by Russell Davidson and James G. MacKinnon.
+S &Center for Research in Security Prices, Graduate School of  Business, University of Chicago,  725 South Wells - Suite 800,  Chicago, Illinois  60607,  \url{http://www.crsp.com}
+E finance
+
+O CRSPday
+T Daily returns from the *CRSP database
+V year & the year
+V month & the month
+V day & the day
+V ge & the return for General Electric, Permno 12060
+V ibm &  the return for IBM, Permno 12490
+V mobil & the return for Mobil Corporation, Permno 15966
+V crsp &  the return for the CRSP value-weighted index, including  dividends
+n
+t 2528
+f daily
+s 1969-1-03
+e 1998-12-31
+C United States
+H
+A time--series
+U production units
+B DAVID/MCKIN/04
+R chapter 7, 9 and 15
+N All data are taken from the CRSP daily returns database created by the Center for Research in Security Prices of the University of Chicago. They are provided, with the permission of the Center for Research in Security Prices, solely for the purpose of doing exercises from "Econometric Theory and Methods" by Russell Davidson and James G. MacKinnon
+S &Center for Research in Security Prices, Graduate School of  Business, University of Chicago,  725 South Wells - Suite 800,  Chicago, Illinois  60607,  \url{http://www.crsp.com}
+E finance
+
+O Intratesq
+T Interest rates (quarterly)
+V rff & the federal funds rate
+V rt1 & the 1 year treasury bill rate
+V rt3 & the 3 year treasury constant maturity rate
+V rt10 & the 10 year treasury constant maturity rate
+n
+t 188
+f quarterly
+s 1955-1
+e 2001-4
+H
+A time--series
+C United States
+U country
+B DAVID/MCKIN/04
+R chapter 13
+E finance
+
+O Intratesm
+T Interest rates (monthly)
+V rff & the federal funds rate
+V rt1 & the 1 year treasury bill rate
+V rt3 & the 3 year treasury constant maturity rate
+V rt10 & the 10 year treasury constant maturity rate
+n
+t 564
+f monthly
+s 1955-1
+e 2001-12
+H
+A time--series
+C United States
+U country
+B DAVID/MCKIN/04
+R chapter 13 and 14
+E finance
+
+

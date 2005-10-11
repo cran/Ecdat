@@ -1,0 +1,366 @@
+O Klein
+T Klein's Model I
+D 22 yearly observations, 1920-1941
+V cons & Consumption
+V profit & Corporate profits
+V privwage & Private wage bill
+V inv & Investment
+V lcap & Previous year's capital stock
+V gnp & *GNP
+V pubwage & Government wage bill
+V govspend & Government spending
+V taxe & Taxes
+B GREEN/03
+R Table F15.1
+S KLEIN/50
+f annual
+n
+t 22
+s 1920
+e 1941
+U country
+C United States
+E macroeconomics
+A multiple-equations
+
+O Longley
+T The Longley Data
+D 16 yearly observations, 1947-1962
+V employ & Employment (1,000s)
+V price & *GNP deflator
+V gnp & Nominal GNP (millions)
+V armed & Armed forces
+S LONGL/67
+B GREEN/03
+R Table F4.2
+f annual
+n
+t 16
+s 1947
+e 1962
+U country
+C United States
+E macroeconomics
+
+O Mroz
+T Labor supply data
+D from Mroz (1987)
+V work & participation in 1975 ? a factor
+V hoursw & Wife's hours of work in 1975
+V child6 & Number of children less than 6 years old in household
+V child618 & Number of children between ages 6 and 18 in household
+V agew & Wife's age
+V educw & Wife's educational attainment, in years
+V hearnw & Wife's average hourly earnings, in 1975 dollars
+V wagew & Wife's wage reported at the time of the 1976 interview  (not= 1975 estimated wage)
+V hoursh & Husband's hours worked in 1975
+V ageh & Husband's age
+V educh & Husband's educational attainment, in years
+V wageh & Husband's wage, in 1975 dollars
+V income & Family income, in 1975 dollars
+V educwm & Wife's mother's educational attainment, in years
+V educwf & Wife's father's educational attainment, in years
+V unemprate & Unemployment rate in county of residence, in percentage points
+V city & lives in large city (SMSA) ? a factor
+V experience & Actual years of wife's previous labor market experience
+S MROZ/87
+S &1976 Panel Study of Income Dynamics
+B GREEN/03
+R Table F4.1
+f none
+n 753
+t
+s
+e
+U individuals
+C United States
+E labor economics
+A discrete and limited dependent variables
+
+
+O MunExp
+T Municipal Expenditure Data
+D 
+V id & Identification
+V year & Date
+V expend & Expenditure
+V revenue & Revenue from taxes and fees
+V grants & Grants from Central Government
+S DAHLB/JOHAN/00
+B GREEN/03
+R Table F18.1
+f annual
+n 265
+t 9
+s 1979
+e 1987
+U regional
+C Sweeden
+E public economics
+A panel
+
+O ModeChoice
+T Data to Study Travel Mode Choice
+D 840 observations, on 4 modes for 210 individuals
+V mode & Choice : air, train, bus or car
+V ttme & Terminal waiting cost time, 0 for car
+V invc & In vehicule cost-cost component
+V invt & Travel time in vehicule
+V gc & Generalized cost measure
+V hinc & Household income
+V psize & Party size in mode chosen
+S GREEN/HENSH/97
+B GREEN/03
+R Table F21.2
+f none
+n 840
+t
+s
+e
+U individuals
+C Australia
+H sector
+A discrete and limited dependent variables
+E consumer behaviour
+
+O Fair
+T Extramarital Affairs Data
+D 601 cross-section observations
+V sexe & a factor with levels (male,female)
+V age & Age
+V ym & Number of years married
+V child & Children ? a factor 
+V religious & How religious, from 1 (anti) to 5 (very)
+V education & Education
+V occupation & Occupation, from 1 to 7, according to hollingshead classification (reverse numbering)
+V rate & Self rating of mariage, from 1 (very unhappy) to 5 (very happy)
+V nbaffairs & Number of affairs in past year
+S FAIR/77
+S &\url{http://fairmodel.econ.yale.edu/rayfair/pdf/1978A200.PDF}
+B GREEN/03
+R  Table F22.2
+f none
+n 601
+t
+s
+e
+U individuals
+C United States
+H society
+A discrete and limited dependent variables
+E socio-economics
+
+O Metal
+T Production for *SIC 33
+D Primary metals, 27 statewide observations
+V va & Output
+V labor & Labor input
+V capital & Capital input
+S AIGNE/LOVEL/SCHMI/77
+S HILDE/LIU/57
+B GREEN/03
+R Table F6.1
+N Data are per etablisment, labor is a measure of labor input, and capital is the gross value of plant and equipment. A scale factor used to normalize the capital figure in the original study has been omitted. Further details on construction of the data are given in Aigner et al. (1977) and in Hildebrand and Liu (1957)
+f none
+n 27
+t 
+s
+e
+U regional
+C United States
+H sector
+A
+E producer behaviour
+
+O Strike
+T Strike Duration Data
+D 62 observations in 9 years, 1968-1976
+V duration & Strike duration in days
+V prod & Unanticipated output
+S KENNA/85
+B GREEN/03
+R Table F22.1
+f none
+n 62
+t
+s 1968
+e 1976
+U
+C United States
+H society
+A discrete and limited dependent variables
+E labor economics
+
+O TranspEq
+T Statewide Data on Transportation Equipment Manufacturing
+D 25 Observations
+V state & state name
+V va & Output
+V capital & Capital input
+V labor & Labor input
+V nfirm & Number of firms
+S ZELLN/REVAN/70
+B GREEN/03
+N \dQuote{va}, \dQuote{capital} and \dQuote{labor} are in millions of 1957 dollars. Data used for regression examples are per etablishment. Raw data are used in stochastic frontier application in chapter 16
+R Table F9.2
+f none
+n 25
+t
+s
+e
+U regional
+C United States
+H sector
+A
+E producer behaviour
+
+O ManufCost
+T Manufacturing Costs
+D U.S. economy, 25 yearly observations, 1947-1971
+V cost & Cost index
+V sk & Capital cost share
+V sl & Labor cost share
+V se & Energy cost share
+V sm & Materials cost share
+V pk & Capital price
+V pl & Labor price
+V pe & Energy price
+V pm & Materials price
+S BERND/WOOD/75
+B GREEN/03
+R Table F14.1
+f annual
+n
+t 25
+s 1947
+e 1971
+U country
+C United States
+H Sector
+A multiple-equations
+E producer behaviour
+
+O Solow
+T Solow's Technological Change Data
+D 41 annual observations, 1909-1949
+V q & Output
+V k & Capital/labor ratio
+V A & Index of technology
+S SOLOW/57
+N Several variables are omitted
+B GREEN/03
+R Table F7.2
+f annual
+n
+t 41
+s 1909
+e 1949
+U country
+C United States
+H Macroeconomics
+A
+E macroeconomics
+
+
+O Accident
+T Ship Accidents
+D 40 observations on 5 types in 4 vintages and 2 service periods
+V type & Ship type, a factor with levels (A,B,C,D,E)
+V constr & year constructed, a factor with levels (C6064,C6569,C7074,C7579)
+V operate & year operated, a factor with levels (O6074,O7579)
+V months & Measure of service amount
+V acc & Accidents
+S MCCUL/NELDE/83
+B GREEN/03
+R Table F21.3
+f none
+n 40
+t
+s
+e
+U
+C
+H sector
+A discrete and limited dependent variables
+E producer behaviour
+
+O Airline
+T Cost for *U.S. Airlines
+D 90 observations on 6 firms for 1970-1984
+V airline & Airline
+V year & Year
+V cost & Total cost, in \$1,000
+V output & Output, in revenue passenger miles, index number
+V pf & Fuel price
+V lf & Load factor, the average capacity utilization of the fleet
+N These data are a subset of a larger data set provided to the author by Professor Moshe Kim. They were originally constructed by Christensen Associates of Madison, Wisconsin
+B GREEN/03
+R Table F7.1
+f annual
+n 6
+t 15
+s 1970
+e 1984
+U production units
+C United States
+H sector
+A panel
+
+O Electricity
+T Cost function for  Electricity Producers, 1970
+D 123 1970 cross-section firm level observations
+V cost & Total cost
+V q & Total output
+V pl & Wage rate
+V sl & Cost share for labor
+V pk & Capital price index
+V sk & Cost share for capital
+V pf & Fuel price
+V sf & Cost share for fuel
+S CHRIS/GREEN/76
+N Note the file contains some extra observations. These are holding companies. Use only the first 123 observations to replicate Christensen and Greene
+B GREEN/03
+R chapter 4, 317-320
+B HAYAS/00
+R chapter 1, 76-84
+f none
+n 158
+t
+s 1970
+e 1970
+U production units
+C United States
+H sector
+A multiple-equations
+E producer behaviour
+
+
+O Nerlove
+T Cost function for  Electricity Producers, 1955
+D 1955, data Nerlove
+V cost & Total cost
+V output & Total output
+V pl & Wage rate
+V sl & Cost share for labor
+V pk & Capital price index
+V sk & Cost share for capital
+V pf & Fuel price
+V sf & Cost share for fuel
+S NERLO/63
+S CHRIS/GREEN/76
+N The data file contains several extra observations that are aggregates of commonly owned firms. Use only the first 145 for analysis
+B GREEN/03
+R Table F14.2
+B HAYAS/00
+R chapter 1, 76-84
+f none
+n 159
+t
+s 1955
+e 1955
+U production units
+C United States
+H sector
+A multiple-equations
+E producer behaviour
+

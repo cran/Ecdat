@@ -1,0 +1,181 @@
+O Mpyr
+T Money, National Product and Interest Rate
+V m & Natural log of M1
+V p & Natural log of the net national product price deflator
+V y & Natural log of the net national product
+V r & The commercial paper rate in percent at an annual rate
+S STOCK/WATSO/99
+B HAYAS/00
+R chapter 10, 665-667
+f annual 
+t 90
+s 1900
+e 1989
+n 
+U country
+H macro
+C United States
+A time--series
+E macroeconomics
+
+
+
+O Griliches
+T Wage Datas
+D 758 observations at two points in time
+V rns & residency in the southern states (first observation) ? a factor
+V rns80 & same variable for 1980
+V mrt & married  (first observation) ? a factor
+V mrt80 & same variable for 1980
+V smsa & residency in metropolan areas (first observation) ? a factor
+V smsa80 & same variable for 1980
+V med & Mother's education in years
+V iq & *IQ score
+V kww & Score on the ``knowledge of the world of work'' test
+V year & Year of the observation
+V age & Age (first observation)
+V age80 & same variable for 1980
+V school & completed years of schooling (first observation)
+V school80 & same variable for 1980
+V expr & Experience in years (first observation)
+V expr80 & same variable for 1980
+V tenure & Tenure in years (first observation)
+V tenure80 & same variable for 1980
+V lw & Log wage (first observation)
+V lw80 & same variable for 1980
+S BLACK/NEUMA/92
+B HAYAS/00
+R chapter 3, 250-256
+f none
+t 
+s 1980
+e 
+n 758
+U individuals
+H Labor Economics
+C United States
+A
+E labor economics
+
+O Mishkin
+T Inflation and Interest Rates
+V pai1 & One-mounth inflation rate (in percent, annual rate)
+V pai3 & Three-mounth inflation rate (in percent, annual rate)
+V tb1 & One-mounth T-bill rate (in percent, annual rate)
+V tb3 & Three-mounth T-bill rate (in percent, annual rate)
+V cpi & *CPI for urban consumers, all items (the 1982-1984 average is set to 100)
+S MISHK/92
+B HAYAS/00
+R chapter 2, 176-184
+f monthly
+t 491
+s 1950-2
+e 1990-12
+n 
+U country
+H finance
+C United States
+A time--series
+E macroeconomics
+
+O DM
+T *DM Dollar Exchange Rate
+V date & The date of the observation (19850104 is January, 4, 1985)
+V s & the ask price of the dollar in units of DM in the spot market on Friday of the current week
+V f & the ask price of the dollar in units of DM in the 30-day forward market on Friday of the current week
+V s30 & the bid price of the dollar in units of DM in the spot market on the delivery date on a current forward contract
+S BEKAE/HODRI/93
+B HAYAS/00
+R chapter 6, 438-443
+f weekly
+t 778
+s 1975
+e 1989
+n
+U country
+E finance
+C Germany
+A time--series
+
+O Pound
+T Pound-Dollar Exchange Rate
+V date & The date of the observation (19850104 is January, 4, 1985)
+V s & the ask price of the dollar in units of Pound in the spot market on Friday of the current week
+V f & the ask price of the dollar in units of Pound in the 30-day forward market on Friday of the current week
+V s30 & the bid price of the dollar in units of Pound in the spot market on the delivery date on a current forward contract
+S BEKAE/HODRI/93
+B HAYAS/00
+R chapter 6, 438-443
+f weekly
+t 778
+s 1975
+e 1989
+n
+U country
+E finance
+C Germany
+A time--series
+
+
+O LT
+T Dollar Sterling Exchange Rate
+V s & dollar / sterling exchange rate
+V uswpi & *US wholesale price index, normalized to 100 for 1914
+V ukwpi & *US wholesale price index, normalized to 100 for 1914
+S LOTHI/TAYLO/96
+B HAYAS/00
+R chapter 9, 613-621
+f annual 
+t 200
+s 1791
+e 1990
+n 
+U country
+E finance
+C United Kingdown
+A time--series
+
+O Yen
+T Yen-Dollar Exchange Rate
+V date & The date of the observation (19850104 is January, 4, 1985)
+V s & the ask price of the dollar in units of Yen in the spot market on Friday of the current week
+V f & the ask price of the dollar in units of Yen in the 30-day forward market on Friday of the current week
+V s30 & the bid price of the dollar in units of Yen in the spot market on the delivery date on a current forward contract
+S BEKAE/HODRI/93
+B HAYAS/00
+R chapter 6, 438-443
+f weekly
+t 778
+s 1975
+e 1989
+n 
+U country
+E finance
+C Japan
+A time--series
+
+
+
+O SumHes
+T *The Penn Table
+V year & the year
+V country & the country name (factor)
+V opec & *OPEC member ? a factor
+V com & communist regime ? a  factor
+V pop & Country's population (in thousands)
+V gdp & real GDP per capita (in 1985 US dollars)
+V sr & saving rate (in percent)
+S SUMME/HESTO/91
+B HAYAS/00
+R chapter 5, 358-363
+f annual 
+t 26
+s 1960
+e 1985
+n 125
+U country
+H macro
+C World
+A panel
+E macroeconomics
+

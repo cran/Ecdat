@@ -4,6 +4,16 @@
 \title{Econometric books}
 \description{
 \describe{
+\item Baltagi, Badi H. (2003) \emph{Econometric analysis of panel data}, John Wiley and sons 
+ \itemize{
+\item \code{\link{Cigar}} : Cigarette Consumption  
+\item \code{\link{Gasoline}} : Gasoline Consumption  
+\item \code{\link{Grunfeld}} : Grunfeld Investment Data  
+\item \code{\link{Hedonic}} : Hedonic Prices of Cencus Tracts in Boston  
+\item \code{\link{Produc}} : Us States Production  
+\item \code{\link{Wages}} : Panel Datas of Individual Wages  
+}
+
 \item Davidson, R.  and  James G.  MacKinnon (2004) \emph{Econometric Theory and Methods}, New York, Oxford University Press, \url{http://www.econ.queensu.ca/ETM/} 
  \itemize{
 \item \code{\link{CRSPday}} : Daily Returns from the CRSP Database  
@@ -28,7 +38,7 @@
 \item \code{\link{Fair}} : Extramarital Affairs Data  
 \item \code{\link{Grunfeld}} : Grunfeld Investment Data  
 \item \code{\link{Klein}} : Klein's Model I  
-\item \code{\link{Longley}} : The Longley Data  
+\item \code{\link{Longley}} : the Longley Data  
 \item \code{\link{ManufCost}} : Manufacturing Costs  
 \item \code{\link{Metal}} : Production for SIC 33  
 \item \code{\link{ModeChoice}} : Data to Study Travel Mode Choice  
@@ -71,9 +81,28 @@
 \item Verbeek, Marno (2004) \emph{A guide to modern econometrics}, John Wiley and Sons, \url{http://www.econ.kuleuven.ac.be/GME} 
  \itemize{
 \item \code{\link{Airq}} : Air Quality for Californian Metropolitan Areas  
+\item \code{\link{Benefits}} : Unemployement of Blue Collar Workers  
+\item \code{\link{Bwages}} : Wages in Belgium  
+\item \code{\link{Capm2}} : Stock Market Data  
+\item \code{\link{Clothing}} : Sales Data of Men's Fashion Stores  
+\item \code{\link{Forward2}} : Exchange Rates of Us Dollar Against Other Currencies  
+\item \code{\link{Garch}} : Daily Observations on Exchange Rates of the Us Dollar Against Other Currencies  
 \item \code{\link{Housing}} : Sales Prices of Houses in the City of Windsor  
+\item \code{\link{Icecream}} : Ice Cream Consumption  
+\item \code{\link{IncomeUK}} : Seasonally Unadjusted Quarterly Data on Disposable Income and Expenditure  
+\item \code{\link{Irates}} : Monthly Interest Rates  
+\item \code{\link{Labour2}} : Belgian Firms  
+\item \code{\link{Males}} : Wages and Education of Young Males  
+\item \code{\link{MoneyUS}} : Macroeconomic Series for the United States  
 \item \code{\link{NaturalPark}} : Willingness to Pay for the Preservation of the Alentejo Natural Park  
+\item \code{\link{PE}} : Price and Earnings Index  
+\item \code{\link{PPP}} : Exchange Rates and Price Indices for France and Italy  
+\item \code{\link{Patents}} : Number of Patents for International Manufacturig Firms  
+\item \code{\link{Pricing}} : Returns of Size-based Portfolios  
+\item \code{\link{SP500}} : Returns on Standard \& Poor's 500 Index  
+\item \code{\link{Schooling}} : Wages and Schooling  
 \item \code{\link{Tobacco}} : Households Tobacco Budget Share  
+\item \code{\link{Wages1}} : Wages, Experience and Schooling  
 }
 
 }

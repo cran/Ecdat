@@ -25,7 +25,7 @@
   }
 }
 \source{
-    Greene, W.H.  and  D.  Hensher (1997) \emph{Multinomial logit and discret choice models} \emph{in}  Greene, W. H. (1997) \emph{LIMDEP version 7.0 user's manual revised}, Plainview, New York econometric software, Inc. .
+    Greene, W.H.  and  D.  Hensher (1997) \emph{Multinomial logit and discret choice models} \emph{in}  Greene, W. H. (1997) \emph{LIMDEP version 7.0 user's manual revised}, Plainview, New York econometric software, Inc .
 
 }
 \references{
