@@ -8,7 +8,7 @@
  \itemize{
 \item \code{\link{Klein}} : Klein's Model I  
 \item \code{\link{LT}} : Dollar Sterling Exchange Rate  
-\item \code{\link{Longley}} : the Longley Data  
+\item \code{\link{Longley}} : The Longley Data  
 \item \code{\link{ManufCost}} : Manufacturing Costs  
 \item \code{\link{Mpyr}} : Money, National Product and Interest Rate  
 \item \code{\link{PE}} : Price and Earnings Index  
@@ -17,7 +17,7 @@
 \item daily 
  \itemize{
 \item \code{\link{CRSPday}} : Daily Returns from the CRSP Database  
-\item \code{\link{Garch}} : Daily Observations on Exchange Rates of the Us Dollar Against Other Currencies  
+\item \code{\link{Garch}} : Daily Observations on Exchange Rates of the US Dollar Against Other Currencies  
 \item \code{\link{SP500}} : Returns on Standard \& Poor's 500 Index  
 }
 \item four--weekly 
@@ -27,14 +27,15 @@
 \item monthly 
  \itemize{
 \item \code{\link{CRSPmon}} : Monthly Returns from the CRSP Database  
-\item \code{\link{Capm2}} : Stock Market Data  
-\item \code{\link{Forward2}} : Exchange Rates of Us Dollar Against Other Currencies  
+\item \code{\link{Capm}} : Stock Market Data  
+\item \code{\link{Forward}} : Exchange Rates of US Dollar Against Other Currencies  
 \item \code{\link{Intratesm}} : Interest Rates (monthly)  
 \item \code{\link{Irates}} : Monthly Interest Rates  
 \item \code{\link{Mishkin}} : Inflation and Interest Rates  
 \item \code{\link{Orange}} : The Orange Juice Data Set  
 \item \code{\link{PPP}} : Exchange Rates and Price Indices for France and Italy  
 \item \code{\link{Pricing}} : Returns of Size-based Portfolios  
+\item \code{\link{StrikeNb}} : Number of Strikes in Us Manufacturing  
 }
 \item quarterly 
  \itemize{

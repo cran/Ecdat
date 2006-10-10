@@ -39,8 +39,11 @@
 
 }
 \references{
-    Stock, James H.  and  Mark W.  Watson (2003) \emph{Introduction to Econometrics}, Addison-Wesley Educational Publishers, \url{http://wps.aw.com/aw_stockwatsn_economtrcs_1}.
+    Stock, James H.  and  Mark W.  Watson (2003) \emph{Introduction to Econometrics}, Addison-Wesley Educational Publishers, \url{http://wps.aw.com/aw_stockwatsn_economtrcs_1}, chapter 7.
+
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

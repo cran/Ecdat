@@ -22,13 +22,17 @@
   }
 }
 \source{
-    Hildreth, C.  and  J.  Lu (1960) \emph{Demand relations with autocorrelated disturbances}, Technical Bulletin No 2765, Michigan State University .
+    Hildreth, C.  and  J.  Lu (1960) \emph{Demand relations with autocorrelated disturbances}, Technical Bulletin No 2765, Michigan State University.
 
 }
 \references{
     Verbeek, Marno (2004) \emph{A guide to modern econometrics}, John Wiley and Sons, \url{http://www.econ.kuleuven.ac.be/GME}, chapter 4.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

@@ -20,7 +20,7 @@
     \item{bidl}{lower bid}
     \item{answers}{a factor with levels (nn,ny,yn,yy)}
     \item{age}{age in 6 classes}
-    \item{sexe}{a factor with levels (male,female) }
+    \item{sex}{a factor with levels (male,female) }
     \item{income}{income in 8 classes}
   }
 }
@@ -32,6 +32,8 @@
     Verbeek, Marno (2004) \emph{A guide to modern econometrics}, John Wiley and Sons, \url{http://www.econ.kuleuven.ac.be/GME}, chapter 7.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

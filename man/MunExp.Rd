@@ -23,13 +23,18 @@
   }
 }
 \source{
-    Dahlberg, M.  and  E.  Johanssen (2000) \dQuote{An examination of the dynamic behavior of local government using GMM boot-strapping methods}, \emph{Journal of Applied Econometrics }, \bold{21}, 333-355.
+    Dahlberg, M.  and  E.  Johanssen (2000) \dQuote{An examination of the dynamic behavior of local government using GMM boot-strapping methods}, \emph{Journal of Applied Econometrics}, \bold{21}, 333-355.
 
 }
 \references{
     Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, \url{http://www.prenhall.com/greene/greene1.html}, Table F18.1.
 
+      Journal of Applied Econometrics data archive : \url{http://jae.wiley.com/jae/}.
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

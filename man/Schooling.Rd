@@ -48,13 +48,15 @@
 \source{
     National Longitudinal Survey of Young Men (NLSYM) .
 
-    Card, D. (1995) \emph{Using geographical variation in college proximity to estimate the return to schooling} \emph{in}  Christofides , L.N. ,  E.K.   Grant and  R.  Swidinsky (1995) \emph{Aspects of labour market behaviour : essays in honour of John Vanderkamp}, University of Toronto Press, Toronto .
+    Card, D. (1995) \emph{Using geographical variation in college proximity to estimate the return to schooling} \emph{in}  Christofides, L.N.,  E.K.   Grant and  R.  Swidinsky (1995) \emph{Aspects of labour market behaviour : essays in honour of John Vanderkamp}, University of Toronto Press, Toronto .
 
 }
 \references{
     Verbeek, Marno (2004) \emph{A guide to modern econometrics}, John Wiley and Sons, \url{http://www.econ.kuleuven.ac.be/GME}, chapter 5.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

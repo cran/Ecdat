@@ -22,13 +22,17 @@
   }
 }
 \source{
-    Stock, J.  and  M.  Watson (1999) \dQuote{Testing for common trends}, \emph{Journal of the American Statistical Association }, \bold{83}, 1097-1107.
+    Stock, J.  and  M.  Watson (1999) \dQuote{Testing for common trends}, \emph{Journal of the American Statistical Association}, \bold{83}, 1097-1107.
 
 }
 \references{
     Hayashi, F. (2000) \emph{Econometrics}, Princeton University Press, \url{http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm}, chapter 10, 665-667.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

@@ -18,7 +18,7 @@
     \item{wage}{ gross hourly wage rate in euro}
     \item{educ}{ education level from 1 [low] to 5 [high]}
     \item{exper}{years of experience}
-    \item{sexe}{a factor with levels (males,female)}
+    \item{sex}{a factor with levels (males,female)}
   }
 }
 \source{
@@ -29,6 +29,8 @@
     Verbeek, Marno (2004) \emph{A guide to modern econometrics}, John Wiley and Sons, \url{http://www.econ.kuleuven.ac.be/GME}, chapter 3.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

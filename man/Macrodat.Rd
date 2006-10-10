@@ -15,12 +15,12 @@
 \usage{data(Macrodat)}
 \format{A time serie containing :
   \describe{
-    \item{lhur}{unemployment Rate (Average of Months in Quarter)       }
-    \item{punew}{CPI   (Average of Months in Quarter)       }
-    \item{fyff}{federal Funds Interest Rate (Last Month in Quarter)       }
-    \item{fygm3}{3 Month Treasury Bill Interest Rate (Last Month in Quarter)       }
-    \item{fygt1}{1 Year Treasury Bond Interest Rate (Last Month in Quarter)       }
-    \item{exruk}{dollar / Pound Exchange Rate (Last Month in Quarter)       }
+    \item{lhur}{unemployment rate (average of months in quarter)       }
+    \item{punew}{cPI   (Average of Months in Quarter)       }
+    \item{fyff}{federal funds interest rate (last month in quarter)       }
+    \item{fygm3}{3 month treasury bill interest rate (last month in quarter)       }
+    \item{fygt1}{1 year treasury bond interest rate (last month in quarter)       }
+    \item{exruk}{dollar / Pound exchange rate (last month in quarter)       }
     \item{gdpjp}{real GDP for Japan       }
   }
 }
@@ -29,8 +29,13 @@
 
 }
 \references{
-    Stock, James H.  and  Mark W.  Watson (2003) \emph{Introduction to Econometrics}, Addison-Wesley Educational Publishers, \url{http://wps.aw.com/aw_stockwatsn_economtrcs_1}.
+    Stock, James H.  and  Mark W.  Watson (2003) \emph{Introduction to Econometrics}, Addison-Wesley Educational Publishers, \url{http://wps.aw.com/aw_stockwatsn_economtrcs_1}, chapter 12 and 14.
+
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

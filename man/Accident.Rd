@@ -26,6 +26,8 @@
     Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, \url{http://www.prenhall.com/greene/greene1.html}, Table F21.3.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

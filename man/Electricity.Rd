@@ -1,9 +1,9 @@
 \name{Electricity}
 \docType{data}
 \alias{Electricity}
-\title{Cost Function for Electricity Producers, 1970 }
+\title{Cost Function for Electricity Producers }
 \description{
-  a cross-section from 1970
+  a cross-section from 1970 to 1970
 
  \emph{number of observations} :  158
 
@@ -26,7 +26,7 @@
   }
 }
 \source{
-    Christensen, L.  and  W. H.  Greene (1976) \dQuote{Economies of scale in U.S. electric power generation}, \emph{Journal of Political Economy }, \bold{84}, 655-676.
+    Christensen, L.  and  W. H.  Greene (1976) \dQuote{Economies of scale in U.S. electric power generation}, \emph{Journal of Political Economy}, \bold{84}, 655-676.
 
 }
 \references{
@@ -35,6 +35,8 @@
     Hayashi, F. (2000) \emph{Econometrics}, Princeton University Press, \url{http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm}, chapter 1, 76-84.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

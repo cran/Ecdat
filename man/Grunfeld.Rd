@@ -29,8 +29,12 @@
 \references{
     Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, \url{http://www.prenhall.com/greene/greene1.html}, Table F13.1.
 
-    Baltagi, Badi H. (2003) \emph{Econometric analysis of panel data}, John Wiley and sons.
+    Baltagi, Badi H. (2003) \emph{Econometric analysis of panel data}, John Wiley and sons, \url{http://www.wiley.com/legacy/wileychi/baltagi/}.
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

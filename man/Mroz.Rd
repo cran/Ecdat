@@ -15,7 +15,7 @@
 \usage{data(Mroz)}
 \format{A dataframe containing :
   \describe{
-    \item{work}{participation in 1975 ? a factor}
+    \item{work}{participation in 1975 ?}
     \item{hoursw}{wife's hours of work in 1975}
     \item{child6}{number of children less than 6 years old in household}
     \item{child618}{number of children between ages 6 and 18 in household}
@@ -31,12 +31,12 @@
     \item{educwm}{wife's mother's educational attainment, in years}
     \item{educwf}{wife's father's educational attainment, in years}
     \item{unemprate}{unemployment rate in county of residence, in percentage points}
-    \item{city}{lives in large city (SMSA) ? a factor}
+    \item{city}{lives in large city (SMSA) ?}
     \item{experience}{actual years of wife's previous labor market experience}
   }
 }
 \source{
-    Mroz, T. (1987) \dQuote{The sensivity of an empirical model of married women's hours of work to economic and statistical assumptions}, \emph{Econometrica }, \bold{55}, 765-799.
+    Mroz, T. (1987) \dQuote{The sensivity of an empirical model of married women's hours of work to economic and statistical assumptions}, \emph{Econometrica}, \bold{55}, 765-799.
 
     1976 Panel Study of Income Dynamics.
 
@@ -45,6 +45,8 @@
     Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, \url{http://www.prenhall.com/greene/greene1.html}, Table F4.1.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

@@ -3,7 +3,7 @@
 \alias{Strike}
 \title{Strike Duration Data }
 \description{
-  a cross-section from 1968
+  a cross-section from 1968 to 1976
 
  \emph{number of observations} :  62
 
@@ -18,13 +18,15 @@
   }
 }
 \source{
-    Kennan, J. (1985) \dQuote{The duration of contract strikes in U.S. manufacturing}, \emph{Journal of Econometrics }, \bold{28}, 5-28.
+    Kennan, J. (1985) \dQuote{The duration of contract strikes in U.S. manufacturing}, \emph{Journal of Econometrics}, \bold{28}, 5-28.
 
 }
 \references{
     Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, \url{http://www.prenhall.com/greene/greene1.html}, Table F22.1.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

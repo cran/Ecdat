@@ -28,13 +28,17 @@
   }
 }
 \source{
-    McCulloch, J.H.  and  H.C.  Kwon (1993) \emph{U.S. term structure data, 1947--1991}, Ohio State Working Paper 93-6, Ohio State University, Columbus .
+    McCulloch, J.H.  and  H.C.  Kwon (1993) \emph{U.S. term structure data, 1947--1991}, Ohio State Working Paper 93-6, Ohio State University, Columbus.
 
 }
 \references{
     Verbeek, Marno (2004) \emph{A guide to modern econometrics}, John Wiley and Sons, \url{http://www.econ.kuleuven.ac.be/GME}, chapter 8.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

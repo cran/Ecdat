@@ -21,7 +21,7 @@
   }
 }
 \source{
-    Aigner , D. ,  K.   Lovell and  P.  Schmidt (1977) \dQuote{Formulation and estimation of stochastic frontier production models}, \emph{Journal of Econometrics }, \bold{6}, 21-37.
+    Aigner, D.,  K.   Lovell and  P.  Schmidt (1977) \dQuote{Formulation and estimation of stochastic frontier production models}, \emph{Journal of Econometrics}, \bold{6}, 21-37.
 
     Hildebrand, G.  and  T.  Liu (1957) \emph{Manufacturing production functions in the United States}, Ithaca, N.Y.: Cornell University Press.
 
@@ -30,6 +30,8 @@
     Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, \url{http://www.prenhall.com/greene/greene1.html}, Table F6.1.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

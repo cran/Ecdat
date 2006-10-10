@@ -19,8 +19,8 @@
     \item{treadssk}{total reading scaled score}
     \item{classk}{type of class, a factor with levels (regular,small.class,regular.with.aide)}
     \item{totexpk}{years of total teaching experience}
-    \item{sexe}{a factor with levels (boy,girl)}
-    \item{freelunk}{qualified for free lunch ? a factor}
+    \item{sex}{a factor with levels (boy,girl)}
+    \item{freelunk}{qualified for free lunch ?}
     \item{race}{a factor with levels (white,black,other)}
     \item{schidkn}{school indicator variable}
   }
@@ -30,8 +30,11 @@
 
 }
 \references{
-    Stock, James H.  and  Mark W.  Watson (2003) \emph{Introduction to Econometrics}, Addison-Wesley Educational Publishers, \url{http://wps.aw.com/aw_stockwatsn_economtrcs_1}.
+    Stock, James H.  and  Mark W.  Watson (2003) \emph{Introduction to Econometrics}, Addison-Wesley Educational Publishers, \url{http://wps.aw.com/aw_stockwatsn_economtrcs_1}, chapter 11.
+
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

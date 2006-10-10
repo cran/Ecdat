@@ -15,14 +15,18 @@
 \usage{data(IncomeUK)}
 \format{A time serie containing :
   \describe{
-    \item{income}{total disposable income  (million pounds, current prices)}
-    \item{consumption}{consumer expenditure (million pounds, current prices)}
+    \item{income}{total disposable income  (million Pounds, current prices)}
+    \item{consumption}{consumer expenditure (million Pounds, current prices)}
   }
 }
 \references{
     Verbeek, Marno (2004) \emph{A guide to modern econometrics}, John Wiley and Sons, \url{http://www.econ.kuleuven.ac.be/GME}, chapters 8 and 9.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

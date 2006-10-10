@@ -23,13 +23,17 @@
   }
 }
 \source{
-    Mishkin, F. (1992) \dQuote{Is the Fisher effect for real ?}, \emph{Journal of Monetary Economics }, \bold{30}, 195-215.
+    Mishkin, F. (1992) \dQuote{Is the Fisher effect for real ?}, \emph{Journal of Monetary Economics}, \bold{30}, 195-215.
 
 }
 \references{
     Hayashi, F. (2000) \emph{Econometrics}, Princeton University Press, \url{http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm}, chapter 2, 176-184.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

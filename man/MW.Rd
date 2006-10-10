@@ -20,13 +20,17 @@
   }
 }
 \source{
-    MacKinnon, J. G.  and  H.t  White (1985) \dQuote{Some heteroskedasticity consistent  covariance matrix estimators with improved finite sample properties}, \emph{Journal of Econometrics }, \bold{29}, 305-325.
+    MacKinnon, J. G.  and  H. T.  White (1985) \dQuote{Some heteroskedasticity consistent  covariance matrix estimators with improved finite sample properties}, \emph{Journal of Econometrics}, \bold{29}, 305-325.
 
 }
 \references{
     Davidson, R.  and  James G.  MacKinnon (2004) \emph{Econometric Theory and Methods}, New York, Oxford University Press, \url{http://www.econ.queensu.ca/ETM/}, chapter 5.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

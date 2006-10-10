@@ -28,14 +28,18 @@
   }
 }
 \source{
-    Munnel, A. (1990) \dQuote{Why has productivity growth declined? Productivity and public}, \emph{New England Economic Review }, 3--22.
+    Munnel, A. (1990) \dQuote{Why has productivity growth declined? Productivity and public investment}, \emph{New England Economic Review}, 3--22.
 
-    Baltagi, B. H.  and  N.  Pinnoi (1995) \dQuote{Public capital stock and state productivity growth: further evidence}, \emph{Empirical Economics }, \bold{20}, 351--359.
+    Baltagi, B. H.  and  N.  Pinnoi (1995) \dQuote{Public capital stock and state productivity growth: further evidence}, \emph{Empirical Economics}, \bold{20}, 351--359.
 
 }
 \references{
-    Baltagi, Badi H. (2003) \emph{Econometric analysis of panel data}, John Wiley and sons.
+    Baltagi, Badi H. (2003) \emph{Econometric analysis of panel data}, John Wiley and sons, \url{http://www.wiley.com/legacy/wileychi/baltagi/}.
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

@@ -7,6 +7,8 @@
 
  \emph{number of observations} :  164
 
+   \emph{country} :  United States
+
 }
 \usage{data(MoneyUS)}
 \format{A time serie containing :
@@ -19,13 +21,18 @@
   }
 }
 \source{
-    Hoffman, D.L.  and  R.H.  Rasche (1996) \dQuote{Assessing forecast performance in a cointegrated system}, \emph{Journal of Applied Econometrics }, \bold{11}, 495--517.
+    Hoffman, D.L.  and  R.H.  Rasche (1996) \dQuote{Assessing forecast performance in a cointegrated system}, \emph{Journal of Applied Econometrics}, \bold{11}, 495--517.
 
 }
 \references{
     Verbeek, Marno (2004) \emph{A guide to modern econometrics}, John Wiley and Sons, \url{http://www.econ.kuleuven.ac.be/GME}, chapter 9.
 
+      Journal of Applied Econometrics data archive : \url{http://jae.wiley.com/jae/}.
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

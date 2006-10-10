@@ -24,12 +24,16 @@
   }
 }
 \source{
-    Baltagi, B.H.  and  Y.J.  Griggin (1983) \dQuote{Gasoline demand in the OECD: an application of pooling and testing procedures}, \emph{European Economic Review }, \bold{22}.
+    Baltagi, B.H.  and  Y.J.  Griggin (1983) \dQuote{Gasoline demand in the OECD: an application of pooling and testing procedures}, \emph{European Economic Review}, \bold{22}.
 
 }
 \references{
-    Baltagi, Badi H. (2003) \emph{Econometric analysis of panel data}, John Wiley and sons.
+    Baltagi, Badi H. (2003) \emph{Econometric analysis of panel data}, John Wiley and sons, \url{http://www.wiley.com/legacy/wileychi/baltagi/}.
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

@@ -20,8 +20,8 @@
     \item{mrall}{traffic fatality rate (deaths per 10000)}
     \item{beertax}{tax on case of beer}
     \item{mlda}{minimum legal drinking age}
-    \item{jaild}{mandatory jail sentence ? a factor}
-    \item{comserd}{mandatory community service ? a factor}
+    \item{jaild}{mandatory jail sentence ?}
+    \item{comserd}{mandatory community service ?}
     \item{vmiles}{average miles per driver}
     \item{unrate}{unemployment rate}
     \item{perinc}{per capita personal income}
@@ -32,8 +32,13 @@
 
 }
 \references{
-    Stock, James H.  and  Mark W.  Watson (2003) \emph{Introduction to Econometrics}, Addison-Wesley Educational Publishers, \url{http://wps.aw.com/aw_stockwatsn_economtrcs_1}.
+    Stock, James H.  and  Mark W.  Watson (2003) \emph{Introduction to Econometrics}, Addison-Wesley Educational Publishers, \url{http://wps.aw.com/aw_stockwatsn_economtrcs_1}, chapter 8.
+
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}

@@ -7,13 +7,15 @@
 
  \emph{number of observations} :  180
 
+ \emph{observation} :  goods
+
 }
 \usage{data(Journals)}
 \format{A dataframe containing :
   \describe{
     \item{title}{journal title}
     \item{pub}{publisher}
-    \item{society}{ scholarly society ? a factor}
+    \item{society}{ scholarly society ?}
     \item{libprice}{library subscription price}
     \item{pages}{number of pages}
     \item{charpp}{characters per page}
@@ -28,8 +30,11 @@
 
 }
 \references{
-    Stock, James H.  and  Mark W.  Watson (2003) \emph{Introduction to Econometrics}, Addison-Wesley Educational Publishers, \url{http://wps.aw.com/aw_stockwatsn_economtrcs_1}.
+    Stock, James H.  and  Mark W.  Watson (2003) \emph{Introduction to Econometrics}, Addison-Wesley Educational Publishers, \url{http://wps.aw.com/aw_stockwatsn_economtrcs_1}, chapter 6.
+
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

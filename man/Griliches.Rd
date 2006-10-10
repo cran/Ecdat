@@ -15,11 +15,11 @@
 \usage{data(Griliches)}
 \format{A dataframe containing :
   \describe{
-    \item{rns}{residency in the southern states (first observation) ? a factor}
+    \item{rns}{residency in the southern states (first observation) ?}
     \item{rns80}{same variable for 1980}
-    \item{mrt}{married  (first observation) ? a factor}
+    \item{mrt}{married  (first observation) ?}
     \item{mrt80}{same variable for 1980}
-    \item{smsa}{residency in metropolan areas (first observation) ? a factor}
+    \item{smsa}{residency in metropolan areas (first observation) ?}
     \item{smsa80}{same variable for 1980}
     \item{med}{mother's education in years}
     \item{iq}{IQ score}
@@ -38,13 +38,15 @@
   }
 }
 \source{
-    Blackburn, M.  and   Neumark D. (1992) \dQuote{Unobserved ability, efficiency wages, and interindustry wage differentials}, \emph{Quarterly Journal of Economics }, \bold{107}, 1421-1436.
+    Blackburn, M.  and   Neumark D. (1992) \dQuote{Unobserved ability, efficiency wages, and interindustry wage differentials}, \emph{Quarterly Journal of Economics}, \bold{107}, 1421-1436.
 
 }
 \references{
     Hayashi, F. (2000) \emph{Econometrics}, Princeton University Press, \url{http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm}, chapter 3, 250-256.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

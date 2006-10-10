@@ -22,13 +22,16 @@
   }
 }
 \source{
-    Gurmu, Shiferaw (1997) \dQuote{Semiparametric estimation of hurdle regression models with an application to medicaid utilization}, \emph{Journal of Applied Econometrics }, \bold{12(3)}, 225-242.
+    Gurmu, Shiferaw (1997) \dQuote{Semiparametric estimation of hurdle regression models with an application to medicaid utilization}, \emph{Journal of Applied Econometrics}, \bold{12(3)}, 225-242.
 
 }
 \references{
     Davidson, R.  and  James G.  MacKinnon (2004) \emph{Econometric Theory and Methods}, New York, Oxford University Press, \url{http://www.econ.queensu.ca/ETM/}, chapter 11.
 
+      Journal of Applied Econometrics data archive : \url{http://jae.wiley.com/jae/}.
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

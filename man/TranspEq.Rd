@@ -23,13 +23,15 @@
   }
 }
 \source{
-    Zellner, A.  and  N.  Revankar (1970) \dQuote{Generalized production functions}, \emph{Review of Economic Studies }, \bold{37}, 241-250.
+    Zellner, A.  and  N.  Revankar (1970) \dQuote{Generalized production functions}, \emph{Review of Economic Studies}, \bold{37}, 241-250.
 
 }
 \references{
     Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, \url{http://www.prenhall.com/greene/greene1.html}, Table F9.2.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
+
+}
 
 \keyword{datasets}

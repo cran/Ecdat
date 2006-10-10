@@ -15,11 +15,11 @@
 \usage{data(PPP)}
 \format{A time serie containing :
   \describe{
-    \item{lnit}{log price index italy}
-    \item{lnfr}{log price index france}
-    \item{lnx}{ log exchange rate france/italy}
-    \item{cpiit}{consumer price index italy}
-    \item{cpifr}{consumer price index france}
+    \item{lnit}{log price index Italy}
+    \item{lnfr}{log price index France}
+    \item{lnx}{ log exchange rate France/Italy}
+    \item{cpiit}{consumer price index Italy}
+    \item{cpifr}{consumer price index France}
   }
 }
 \source{
@@ -30,6 +30,10 @@
     Verbeek, Marno (2004) \emph{A guide to modern econometrics}, John Wiley and Sons, \url{http://www.econ.kuleuven.ac.be/GME}, chapters 8 and 9.
 
 }
-\seealso{\code{\link{Index.Books}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}, \code{\link{Index.Time.Series}}}
+\seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
+
+ \code{\link{Index.Time.Series}}}
+
+}
 
 \keyword{datasets}
