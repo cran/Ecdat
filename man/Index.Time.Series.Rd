@@ -3,7 +3,8 @@
 \alias{Index.Time.Series}
 \title{Time Series}
 \description{
-\describe{
+  \describe{
+    \itemize{
 \item annual 
  \itemize{
 \item \code{\link{Klein}} : Klein's Model I  
@@ -56,6 +57,8 @@
 \item \code{\link{Yen}} : Yen-dollar Exchange Rate  
 }
 }
-
 }
+}
+
+
 \keyword{documentation}

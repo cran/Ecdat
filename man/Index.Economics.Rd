@@ -3,9 +3,9 @@
 \alias{Index.Economics}
 \title{Economic fields}
 \description{
-\describe{
-\item consumer behavior 
- \itemize{
+  \itemize{
+    \item consumer behavior 
+    \itemize{
 \item \code{\link{BudgetFood}} : Budget Share of Food for Spanish Households  
 \item \code{\link{BudgetItaly}} : Budget Shares for Italian Households  
 \item \code{\link{BudgetUK}} : Budget Shares of British Households  
@@ -155,6 +155,8 @@
 \item \code{\link{Fatality}} : Drunk Driving Laws and Traffic Deaths  
 }
 }
-
 }
+
+
+
 \keyword{documentation}

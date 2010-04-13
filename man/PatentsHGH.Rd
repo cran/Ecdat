@@ -49,6 +49,5 @@
 
  \code{\link{Index.Time.Series}}}
 
-}
 
 \keyword{datasets}

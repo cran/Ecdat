@@ -42,6 +42,5 @@
 }
 \seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
 
-}
 
 \keyword{datasets}

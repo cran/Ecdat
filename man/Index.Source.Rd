@@ -3,7 +3,8 @@
 \alias{Index.Source}
 \title{Source}
 \description{
-\describe{
+  \describe{
+    \itemize{
 \item Journal of Applied Econometrics data archive : \url{http://jae.wiley.com/jae/} 
  \itemize{
 \item \code{\link{Bids}} : Bids Received By U.S. Firms  
@@ -187,6 +188,8 @@
 }
 
 }
+}
 
 }
+
 \keyword{documentation}

@@ -3,7 +3,8 @@
 \alias{Index.Observations}
 \title{Observations}
 \description{
-\describe{
+  \describe{
+    \itemize{
 \item country 
  \itemize{
 \item \code{\link{Consumption}} : Quarterly Data on Consumption and Expenditure  
@@ -127,6 +128,7 @@
 \item \code{\link{Caschool}} : The California Test Score Data Set  
 \item \code{\link{MCAS}} : The Massashusets Test Score Data Set  
 \item \code{\link{University}} : Provision of University Teaching and Research  
+}
 }
 }
 
