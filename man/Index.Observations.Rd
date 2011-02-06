@@ -1,5 +1,4 @@
 \name{Index.Observations}
-\docType{documentation}
 \alias{Index.Observations}
 \title{Observations}
 \description{

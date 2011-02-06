@@ -1,5 +1,4 @@
 \name{Index.Time.Series}
-\docType{documentation}
 \alias{Index.Time.Series}
 \title{Time Series}
 \description{

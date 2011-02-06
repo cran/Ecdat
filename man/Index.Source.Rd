@@ -1,5 +1,4 @@
 \name{Index.Source}
-\docType{documentation}
 \alias{Index.Source}
 \title{Source}
 \description{

@@ -1,5 +1,4 @@
 \name{Index.Econometrics}
-\docType{documentation}
 \alias{Index.Econometrics}
 \title{Econometric fields}
 \description{
