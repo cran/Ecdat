@@ -14,7 +14,8 @@
   \href{http://MeasuringWorth.com}{MeasureingWorth.com}
 }
 \usage{data(incomeInequality)}
-\format{A dataframe containing :
+\format{
+  A \code{data.frame} containing:
   \describe{
     \item{Year}{ numeric year 1947:2011 }
     \item{Number.thousands}{ number of families in the US }
@@ -83,6 +84,7 @@
   accessed January 9, 2013.
 }
 %\references{}
+\author{Spencer Graves}
 %\seealso{}
 \examples{
 ##
