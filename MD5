@@ -1,6 +1,8 @@
-6d94fe2c1ce20422930ea7c11f0a627b *DESCRIPTION
+79f6442ee9d1d6f3edc6bb74cdfa3b1f *DESCRIPTION
 9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
 2cd56c68559bcdf54ae7a4b4ce497984 *R/asNumericDF.R
+4bafca3d76e473027583f3e122dbbec2 *R/financialCrisisFiles.R
+059ac31a924a62fa6703deb94b754739 *R/readFinancialCrisisFiles.R
 0f4d892c2146454a8e65f298999ef9ff *data/Accident.rda
 5eda2fa36bf1a7ac66c22ec7403b635d *data/Airline.rda
 12c08f1f288822739a1e9efe4640e105 *data/Airq.rda
@@ -33,6 +35,7 @@ d3320973d91161298fce335acd1c0c7d *data/DoctorContacts.rda
 d62c438e39237149f105f0e2926bd2dc *data/Electricity.rda
 b36b13f5b3fb5fbde0997af0fc7d5483 *data/Fair.rda
 00e1250792bd95e6207542094169f0a5 *data/Fatality.rda
+fc487eccd0459105587fb7b6f74465e5 *data/FinancialCrisisFiles.rda
 d57cb0a85a9320992b6c09b6faedfb8e *data/Fishing.rda
 aa6d48d38c6a77bf59c55095b35311d4 *data/Forward.rda
 6a3dafa6197cdb14c5e0cff41e81fa2f *data/FriendFoe.rda
@@ -117,8 +120,11 @@ d31c4ded1ea1914664c2d220dc56fb4f *data/Wages.rda
 cca61252956a9a649b4eac10a792c009 *data/Workinghours.rda
 051345031c4819eddbe1aa95e702db27 *data/Yen.rda
 358f4c4507f95f501b8775913c61e63b *data/Yogurt.rda
-41174c358ca08c665026520739499ece *data/datalist
+5e112d3169f9e97462fa3b6821d210c6 *data/bankingCrises.rda
+5cac0dd209db7daa2bfadd1a62c41e00 *data/datalist
 1c594ffc69dc3f1cb6877cbe343f42a9 *data/incomeInequality.rda
+4f692351fbec3aa90562e590a98f8cff *inst/demoFiles/2_data.xls
+4f98d14fcbd78a8e0277113da287b10d *inst/demoFiles/5_data.xls
 5efa827dcd35e8ec70e2874f67cd2237 *inst/scripts/F1.PikettySaez.R
 ae377e2d390ea3f62865c3ace0942947 *man/Accident.Rd
 ccc089f0e152193db1d2b3d3a5056b3c *man/Airline.Rd
@@ -242,4 +248,7 @@ a76405ba9554d851e1c7b5fd26be5b42 *man/Wages1.Rd
 b1a2a29ad2fb3145ee919a06ba4bad4b *man/Yen.Rd
 6ccedbe0206e4feb24ff4f19b083b6d2 *man/Yogurt.Rd
 7bcebafac6d8cb0462f2f6ebd6441beb *man/asNumericDF.Rd
-6b369fbb0ba744fa881f725d83f604d2 *man/incomeInequality.Rd
+036c1ffb35f9e2dd3b35b8489f497427 *man/bankingCrises.Rd
+c39f98d70162022bd10d407c4346e13c *man/financialCrisisFiles.Rd
+d4cb747b6f310dee1edf7f25faf4e902 *man/incomeInequality.Rd
+d01e1ff826c2477a60985c1714151d90 *man/readFinancialCrisisFiles.Rd
