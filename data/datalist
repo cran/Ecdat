@@ -47,8 +47,6 @@ Housing
 Hstarts
 Icecream
 IncomeUK
-Intratesm: Hstarts
-Intratesq: Hstarts
 Irates
 Journals
 Kakadu
@@ -106,11 +104,12 @@ TranspEq
 Treatment
 Tuna
 USFinanceIndustry
+USstateAbbreviations
 UStaxWords
 UnempDur
 Unemployment
 University
-VietNamH: MedExp
+VietNamH
 VietNamI
 Wages
 Wages1
@@ -119,3 +118,4 @@ Yen
 Yogurt
 bankingCrises
 incomeInequality
+nonEnglishNames
