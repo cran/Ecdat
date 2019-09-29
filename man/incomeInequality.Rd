@@ -11,7 +11,9 @@
   (2) Piketty and Saez for the 95th and higher quantiles
 
   (3) Gross Domestic Product and implicit price deflators from
-  \href{http://MeasuringWorth.com}{MeasuringWorth.com}
+  href{https://MeasuringWorth.com}{MeasuringWorth.com}
+  (As of 2019-06-26 a check on R-Forge complained, 
+  "server certificate verification failed")
 }
 \usage{data(incomeInequality)}
 \format{
@@ -34,7 +36,7 @@
     \item{realGDP.M, GDP.Deflator, PopulationK, realGDPperCap }{
       real GDP in millions, GDP implicit price deflators, US population
       in thousands, and real GDP per capita, according to
-      \href{http://MeasuringWorth.com}{MeasuringWorth.com}.
+      \href{https://MeasuringWorth.com}{MeasuringWorth.com}.
     }
     \item{P95IRSvsCensus}{
       ratio of the estimates of the 95th percentile of distributions of
@@ -50,7 +52,7 @@
     \item{personsPerFamily}{
       average number of persons per family using the number of families
       from US Census Table F-1 and the population from
-      \href{http://MeasuringWorth.com}{MeasuringWorth.com}.
+      \href{https://MeasuringWorth.com}{MeasuringWorth.com}.
     }
     \item{realGDPperFamily}{
       \code{personsPerFamily * realGDPperCap}
@@ -73,16 +75,16 @@
 \source{
   United States Census Bureau, Table F-1. Income Limits for Each Fifth
   and Top 5 Percent of Families, All Races,
-  \url{http://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-inequality.html},
+  \url{https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-inequality.html},
   accessed 2016-12-09.
 
   Thomas Piketty and Emmanuel Saez (2003) "Income Inequality in the
   United States, 1913-1998", Quarterly Journal of Economics, 118(1)
-  1-39, \url{http://elsa.berkeley.edu/~saez}, update accessed February
+  1-39, \url{https://eml.berkeley.edu/~saez}, update accessed February
   28, 2014.
 
   Louis Johnston and Samuel H. Williamson (2011) "What Was the U.S. GDP
-  Then?" MeasuringWorth, \url{http://www.measuringworth.org/usgdp},
+  Then?" MeasuringWorth, \url{https://www.measuringworth.org/usgdp},
   accessed February 28, 2014.
 }
 %\references{}
@@ -214,88 +216,101 @@ str(Pred <- predict(Fit))
 ## Combined plot
 ##
 #  Plot to a file?  Wikimedia Commons prefers svg format.
+\dontrun{
 svg('incomeInequality8.svg')
-#  If you want software to convert svg to another format such as png,
-#  consider GIMP (www.gimp.org).
+#  If you want software to convert svg to another format 
+#  such as png, consider GIMP (www.gimp.org).
 
 #  Base plot
 
-# Leave extra space on the right to label with growth since 1970
-op <- par(mar=c(5, 4, 4, 5)+0.1)
+# Leave extra space on the right to label 
+# with growth since 1970
+  op <- par(mar=c(5, 4, 4, 5)+0.1)
 
-matplot(incomeInequality$Year, incomeInequality[plotCols]/1000,
-        log='y', type='l', col=plotColors, lty=plotLty,
-        xlab='', ylab='', las=1, axes=FALSE, lwd=3)
-axis(1, at=seq(1950, 2010, 10),
-     labels=c(1950, NA, 1970, NA, 1990, NA, 2010), cex.axis=1.5)
-yat <- c(10, 50, 100, 500, 1000, 5000, 10000)
-axis(2, yat, labels=c('$10K', '$50K', '$100K', '$500K',
+  matplot(incomeInequality$Year, 
+      incomeInequality[plotCols]/1000,
+      log='y', type='l', col=plotColors, lty=plotLty,
+      xlab='', ylab='', las=1, axes=FALSE, lwd=3)
+  axis(1, at=seq(1950, 2010, 10),
+     labels=c(1950, NA, 1970, NA, 1990, NA, 2010), 
+     cex.axis=1.5)
+  yat <- c(10, 50, 100, 500, 1000, 5000, 10000)
+  axis(2, yat, labels=c('$10K', '$50K', '$100K', '$500K',
              '$1M', '$5M', '$10M'), las=1, cex.axis=1.2)
 
 #  Label the lines
-pctls <- paste(c(20, 40, 50, 60, 80, 90, 95, 99, 99.5, 99.9, 99.99),
+  pctls <- paste(c(20, 40, 50, 60, 80, 90, 95, 99, 
+      99.5, 99.9, 99.99),
               '\%', sep='')
-lineLbl0 <- c('Year', 'families K', pctls,
+  lineLbl0 <- c('Year', 'families K', pctls,
      'realGDP.M', 'GDP deflator', 'pop-K', 'realGDPperFamily',
      '95 pct(IRS / Census)', 'size of household',
      'average family income', 'mean/median')
-(lineLbls <- lineLbl0[plotCols])
-sel75 <- (incomeInequality$Year==1975)
+  (lineLbls <- lineLbl0[plotCols])
+  sel75 <- (incomeInequality$Year==1975)
 
-laby <- incomeInequality[sel75, plotCols]/1000
+  laby <- incomeInequality[sel75, plotCols]/1000
 
-text(1973.5, c(1.2, 1.2, 1.3, 1.5, 1.9)*laby[-1], lineLbls[-1], cex=1.2)
-text(1973.5, 1.2*laby[1], lineLbls[1], cex=1.2, srt=10)
+  text(1973.5, c(1.2, 1.2, 1.3, 1.5, 1.9)*laby[-1], 
+    lineLbls[-1], cex=1.2)
+  text(1973.5, 1.2*laby[1], lineLbls[1], cex=1.2, srt=10)
 
 ##
 ## Add lines + points for the knots in 1970
 ##
-End <- numeric(kcols)
-F01names <- names(incomeInequality)
-for(i in seq(length=kcols)){
-  seli <- (as.character(F01i$variable) == F01names[plotCols[i]])
-#  with(F01i[seli, ], lines(Year, exp(Pred[seli]), col=plotColors[i]))
-  yri <- F01i$Year[seli]
-  predi <- exp(Pred[seli])
-  lines(yri, predi, col=plotColors[i])
-  End[i] <- predi[length(predi)]
-  sel70i <- (yri==1970)
-  points(yri[sel70i], predi[sel70i], col=plotColors[i])
-}
+  End <- numeric(kcols)
+  F01names <- names(incomeInequality)
+  for(i in seq(length=kcols)){
+    seli <- (as.character(F01i$variable) == 
+        F01names[plotCols[i]])
+#  with(F01i[seli, ], lines(Year, exp(Pred[seli]), 
+#  col=plotColors[i]))
+    yri <- F01i$Year[seli]
+    predi <- exp(Pred[seli])
+    lines(yri, predi, col=plotColors[i])
+    End[i] <- predi[length(predi)]
+    sel70i <- (yri==1970)
+    points(yri[sel70i], predi[sel70i], 
+        col=plotColors[i])
+  }
 
 ##
 ##  label growth rates
 ##
-table(sel70. <- (incomeInequality$Year>1969))
-(lastYrs <- incomeInequality[sel70., 'Year'])
-(lastYr. <- max(lastYrs)+4)
+  table(sel70. <- (incomeInequality$Year>1969))
+  (lastYrs <- incomeInequality[sel70., 'Year'])
+  (lastYr. <- max(lastYrs)+4)
 #text(lastYr., End, gR., xpd=NA)
-text(lastYr., End, paste(gr[2, plotCols], '\%', sep=''), xpd=NA)
-text(lastYr.+7, End, paste(grYr.[2, plotCols], '\%', sep=''), xpd=NA)
+  text(lastYr., End, paste(gr[2, plotCols], '\%', sep=''), 
+    xpd=NA)
+  text(lastYr.+7, End, paste(grYr.[2, plotCols], '\%', 
+    sep=''), xpd=NA)
 
 ##
 ##  Label the presidents
 ##
-abline(v=c(1953, 1961, 1969, 1977, 1981, 1989, 1993, 2001, 2009))
-(m99.95 <- with(incomeInequality, sqrt(P99.9*P99.99))/1000)
+  abline(v=c(1953, 1961, 1969, 1977, 1981, 1989, 1993, 
+    2001, 2009))
+  (m99.95 <- with(incomeInequality, sqrt(P99.9*P99.99))/1000)
 
-text(1949, 5000, 'Truman')
-text(1956.8, 5000, 'Eisenhower', srt=90)
-text(1963, 5000, 'Kennedy', srt=90)
-text(1966.8, 5000, 'Johnson', srt=90)
-text(1971, 5*m99.95[24], 'Nixon', srt=90)
-text(1975, 5*m99.95[28], 'Ford', srt=90)
-text(1978.5, 5*m99.95[32], 'Carter', srt=90)
-text(1985.1, m99.95[38], 'Reagan' )
-text(1991, 0.94*m99.95[44], 'GHW Bush', srt=90)
-text(1997, m99.95[50], 'Clinton')
-text(2005, 1.1*m99.95[58], 'GW Bush', srt=90)
-text(2010, 1.2*m99.95[62], 'Obama', srt=90)
+  text(1949, 5000, 'Truman')
+  text(1956.8, 5000, 'Eisenhower', srt=90)
+  text(1963, 5000, 'Kennedy', srt=90)
+  text(1966.8, 5000, 'Johnson', srt=90)
+  text(1971, 5*m99.95[24], 'Nixon', srt=90)
+  text(1975, 5*m99.95[28], 'Ford', srt=90)
+  text(1978.5, 5*m99.95[32], 'Carter', srt=90)
+  text(1985.1, m99.95[38], 'Reagan' )
+  text(1991, 0.94*m99.95[44], 'GHW Bush', srt=90)
+  text(1997, m99.95[50], 'Clinton')
+  text(2005, 1.1*m99.95[58], 'GW Bush', srt=90)
+  text(2010, 1.2*m99.95[62], 'Obama', srt=90)
 ##
 ##  Done
 ##
-par(op) # reset margins
+  par(op) # reset margins
 
-dev.off() # for plot to a file
+  dev.off() # for plot to a file
+  }
 }
 \keyword{datasets}

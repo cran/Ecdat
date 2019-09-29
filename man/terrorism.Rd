@@ -7,7 +7,9 @@
   Global Terrorism Database yearly summaries
 }
 \description{
-  The \href{https://en.wikipedia.org/wiki/Global_Terrorism_Database}{Global Terrorism Database (GTD)} 
+  The 
+\href{https://en.wikipedia.org/wiki/Global_Terrorism_Database}{Global 
+  Terrorism Database (GTD)} 
   "is a database of incidents of terrorism 
   from 1970 onward".  Through 2015, this 
   database contains information on 141,966 
@@ -15,7 +17,8 @@
   
   \code{terrorism} provides a few summary
   statistics along with an \code{\link{ordered}}
-  factor \code{methodology}, which \href{https://www.washingtonpost.com/news/monkey-cage/wp/2014/08/11/how-to-fix-the-flaws-in-the-global-terrorism-database-and-why-it-matters/}{Pape et al.}
+  factor \code{methodology}, which 
+\href{https://www.washingtonpost.com/news/monkey-cage/wp/2014/08/11/how-to-fix-the-flaws-in-the-global-terrorism-database-and-why-it-matters/}{Pape et al.}
   insisted is necessary, because an increase 
   of over 70 percent in suicide terrorism 
   between 2007 and 2013 is best explained by 
@@ -34,23 +37,34 @@
   \code{incidents.byCountryYr} and 
   \code{nkill.byCountryYr} are matrices giving 
   the numbes of incidents and numbers of deaths 
-  by year and by country for 206 countries and 
-  for all years between 1970 and 2015 except 
-  for 1993, for which the raw data were lost. 
+  by year and by location of the event for 206
+  countries (rows) and for all years between 
+  1970 and 2016 (columns) except for 1993, for 
+  which the entries are all NA, because the raw
+  data previously collected was lost (though 
+  the total for that year is available in 
+  the \code{\link{data.frame}} 
+  \code{terrorism}). 
   
-  NOTE:  For nkill.byCountryYr and for 
-  terrorism[c('nkill', 'nkill.us')], NAs in 
-  GTD were treated as 0.  Thus the actual 
+  NOTES:  
+  
+  1.  For \code{nkill.byCountryYr} and for 
+  \code{terrorism[c('nkill', 'nkill.us')]}, NAs 
+  in GTD were treated as 0.  Thus the actual 
   number of deaths were likely higher, unless 
   this was more than offset by incidents being 
   classified as terrorism, when they should not
   have been.  
   
+  2.  \code{incidents.byCountryYr} and 
+  \code{nkill.byCountryYr} are NA for 1993,
+  because the GTD data for that year were lost.  
+
   \code{terrorism} is a \code{\link{data.frame}}
   containing the following:  
   
   \describe{
-    \item{year}{integer year, 1970:2014.}
+    \item{year}{integer year, 1970:2016.}
     \item{methodology}{
       an \code{\link{ordered}} factor giving the 
       methodology / organization responsible for 
@@ -143,9 +157,19 @@
       number of U.S. citizens who died as a
       result of incidents for that year = 
       \code{sum(nkill.us, na.rm=TRUE)} in the 
-      GTD incident data.  (This is subject 
-      to the same likely modest undercount 
-      discussed with \code{nkill}.)
+      GTD incident data.  
+      
+      NOTES:  
+      
+      1.  This is subject to the same likely
+      modest undercount discussed with 
+      \code{nkill}.)
+      
+      2.  These are U.S. citizens killed 
+      regardless of location.  This explains at
+      least part of the discrepancies between
+      \code{terrorism[, 'nkill.us']} and 
+      \code{nkill.byCountryYr['United States', ]}.
     }
     \item{nwound}{
       number of people wounded.  (This is
@@ -192,7 +216,7 @@
       
       The WorldDeathRate here were read 
       manually from a plot on  
-      \href{http://data.worldbank.org/indicator/SP.DYN.CDRT.IN?end=2014&start=1960&view=chart}{that web page,} except for the the number for 
+      \href{https://data.worldbank.org/indicator/SP.DYN.CDRT.IN?end=2014&start=1960&view=chart}{that web page,} except for the the number for 
       2015, which was estimated as a reduction 
       of 0.73 percent from 2014, which was the 
       average rate of decline (ratio of two 
@@ -257,9 +281,9 @@
   it suggests larger problems.  
 }
 \source{
-  The \href{https://en.wikipedia.org/wiki/Global_Terrorism_Database}{Global Terrorism Database} 
-  maintained by the \href{https://en.wikipedia.org/wiki/National_Consortium_for_the_Study_of_Terrorism_and_Responses_to_Terrorism}{National Consortium for the Study of Terrorism and Responses to Terrorism} 
-  (START, 2015), \href{http://www.start.umd.edu/gtd}{downloaded 2015-11-28}.  
+  National Consortium for the Study of Terrorism and Responses to Terrorism (START). (2017). Global Terrorism Database [Data file]. Retrieved from \url{http://www.start.umd.edu/gtd} [accessed 2018-04-08]. 
+
+  See also the \href{https://en.wikipedia.org/wiki/Global_Terrorism_Database}{Global Terrorism Database} maintained by the \href{https://en.wikipedia.org/wiki/National_Consortium_for_the_Study_of_Terrorism_and_Responses_to_Terrorism}{National Consortium for the Study of Terrorism and Responses to Terrorism} (START, 2015), \url{http://www.start.umd.edu/gtd}.  
   
   The world and US population figures came from \href{https://esa.un.org/unpd/wpp/Download/Standard/Population/}{"Total Population - Both Sexes", World Population Prospects 2015, published by the Population Division of the Department of Economic and Social Affairs of the United Nations}, 
   accessed 2016-09-05.  
@@ -278,11 +302,13 @@
   \emph{The Washington Post}, August 11, 
   2014 (accessed 2016-01-09).  
 }
+\author{Spencer Graves}
 %\seealso{}
 \examples{
 data(terrorism)
-# plot deaths per million population 
-
+##
+## plot deaths per million population 
+##
 plot(kill.pmp~year, terrorism, 
      pch=method, type='b')
 plot(kill.pmp.us~year, terrorism, 
@@ -314,8 +340,9 @@ plot(pNA.nkill.us~year, terrorism, type='b',
       pch=method)
 abline(v=1997.5, lty='dotted', col='red')
 
-
-# by country by year
+##
+## by country by year
+##
 data(incidents.byCountryYr)
 data(nkill.byCountryYr)
 
