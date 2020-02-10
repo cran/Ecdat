@@ -1,6 +1,6 @@
 Package: Ecdat
-Version: 0.3-4
-Date: 2019-11-05
+Version: 0.3-7
+Date: 2020-02-10
 Title: Data Sets for Econometrics
 Author: Yves Croissant <yves.croissant@let.ish-lyon.cnrs.fr> and Spencer Graves 
 Maintainer: Spencer Graves <spencer.graves@effectivedefense.org>
@@ -11,6 +11,6 @@ LazyData: true
 License: GPL (>= 2)
 URL: https://www.r-project.org
 NeedsCompilation: no
-Packaged: 2019-11-05 16:29:56 UTC; sbgraves
+Packaged: 2020-02-10 15:03:08 UTC; sbgraves
 Repository: CRAN
-Date/Publication: 2019-11-05 19:00:07 UTC
+Date/Publication: 2020-02-10 16:10:03 UTC

@@ -36,7 +36,7 @@
 \format{
   \code{incidents.byCountryYr} and 
   \code{nkill.byCountryYr} are matrices giving 
-  the numbes of incidents and numbers of deaths 
+  the numbers of incidents and numbers of deaths 
   by year and by location of the event for 206
   countries (rows) and for all years between 
   1970 and 2016 (columns) except for 1993, for 
@@ -70,16 +70,16 @@
       methodology / organization responsible for 
       the data collection for most of the given
       year.  The Pinkerton Global Intelligence 
-      Service (PGIS) managed data collection 
+      Service (\code{PGIS}) managed data collection 
       from 1970-01-01 to 1997-12-31.  The 
       Center for Terrorism and Intelligence 
-      Studies (CETIS) managed the project from 
-      1998-01-01 to 2008-03-31.  The Institute
-      for the Study of Violent Groups (ISVG) 
-      carried the project from 2008-04-01 to 
-      2011-10-31.  The National Consortium
-      for the Study of Terrorism and
-      Responses to Terrorism (START) has
+      Studies (\code{CETIS}) managed the project 
+      from 1998-01-01 to 2008-03-31.  The 
+      Institute for the Study of Violent Groups 
+      (\code{ISVG}) carried the project from 
+      2008-04-01 to 2011-10-31.  The National 
+      Consortium for the Study of Terrorism and
+      Responses to Terrorism (\code{START}) has
       managed data collection since 
       2011-11-01.  For this variable, 
       partial years are ignored, so 
@@ -145,7 +145,7 @@
       most cases, we might expect that the 
       more spectacular and lethal incidents 
       would likely be more accurately 
-      reported. To the exent that this is 
+      reported. To the extent that this is 
       true, it means that when numbers are
       missing, they are usually zero or 
       small.  This further suggests that 
@@ -211,34 +211,35 @@
       (deaths per 1,000 population) worldwide 
       and in the US, according to the World 
       Bank;  see "Sources" below.  This World
-      Bank data set includes USdeathRate for 
-      each year from 1900 to 2014.  
+      Bank data set includes \code{USdeathRate} 
+      for each year from 1900 to 2014.  
       
-      The WorldDeathRate here were read 
-      manually from a plot on  
-      \href{https://data.worldbank.org/indicator/SP.DYN.CDRT.IN?end=2014&start=1960&view=chart}{that web page,} except for the the number for 
-      2015, which was estimated as a reduction 
-      of 0.73 percent from 2014, which was the 
-      average rate of decline (ratio of two 
-      successive years) for 1990 to 2014.  
-      The same method was used to estimate the 
-      USdeathRate for 2015 as the same as for
-      2014.  
+      The \code{worldDeathRate} numbers here were 
+      read manually from a plot on  
+      \href{https://data.worldbank.org/indicator/SP.DYN.CDRT.IN?end=2014&start=1960&view=chart}{that web page,} 
+      except for the the number for 2015, which was 
+      estimated as a reduction of 0.73 percent from 
+      2014, which was the average rate of decline 
+      (ratio of two successive years) for 1990 to 
+      2014.  The same method was used to estimate 
+      the \code{USdeathRate} for 2015 as the same 
+      as for 2014.  
       
-      NOTE:  USdeathRate is to two significant 
-      digits only, unlike WorldDeathRate, which 
-      has four significant digits. 
+      NOTE:  \code{USdeathRate} is to two 
+      significant digits only, unlike 
+      \code{worldDeathRate}, which has four 
+      significant digits. 
     }
     \item{worldDeaths, USdeaths}{
       number of deaths by year in the world and 
       US
       
-      worldDeaths = 
-         worldPopulation * worldDeathRate.  
+      \code{worldDeaths = 
+         worldPopulation * worldDeathRate}.  
       
-      USdeaths were computed by summing across 
-      age groups in "Deaths_5x1.txt" for the 
-      United States, downloaded from 
+      \code{USdeaths} were computed by summing 
+      across age groups in "Deaths_5x1.txt" for 
+      the United States, downloaded from 
       \url{http://www.mortality.org/cgi-bin/hmd/country.php?cntr=USA&level=1} from the Human 
       Mortality Database;  see sources below.  
     }
@@ -246,15 +247,15 @@
       terrorism deaths per million 
       population worldwide and in the US = 
       
-      0.001 * nkill / worldPopulation
+      \code{0.001 * nkill / worldPopulation}
     }
     \item{pkill, pkill.us}{
       terrorism deaths as a proportion of 
       total deaths worldwide and in the US
       
-      pkill = nkill / worldDeaths 
+      \code{pkill = nkill / worldDeaths} 
       
-      pkill.us = nkill.us / USdeaths 
+      \code{pkill.us = nkill.us / USdeaths} 
     }
   }
 }
@@ -283,15 +284,19 @@
 \source{
   National Consortium for the Study of Terrorism and Responses to Terrorism (START). (2017). Global Terrorism Database [Data file]. Retrieved from \url{http://www.start.umd.edu/gtd} [accessed 2018-04-08]. 
 
-  See also the \href{https://en.wikipedia.org/wiki/Global_Terrorism_Database}{Global Terrorism Database} maintained by the \href{https://en.wikipedia.org/wiki/National_Consortium_for_the_Study_of_Terrorism_and_Responses_to_Terrorism}{National Consortium for the Study of Terrorism and Responses to Terrorism} (START, 2015), \url{http://www.start.umd.edu/gtd}.  
+  See also the \href{https://en.wikipedia.org/wiki/Global_Terrorism_Database}{Global Terrorism Database} maintained by the \href{https://en.wikipedia.org/wiki/National_Consortium_for_the_Study_of_Terrorism_and_Responses_to_Terrorism}{National Consortium for the Study of Terrorism and Responses to Terrorism} (START, 2015), \url{http://www.start.umd.edu/gtd}. 
   
-  The world and US population figures came from \href{https://esa.un.org/unpd/wpp/Download/Standard/Population/}{"Total Population - Both Sexes", World Population Prospects 2015, published by the Population Division of the Department of Economic and Social Affairs of the United Nations}, 
-  accessed 2016-09-05.  
-  
-  The World and US death rates came from 
-  \href{http://data.worldbank.org/indicator/SP.DYN.CDRT.IN}{the World Bank}, 
-  accessed 2016-09-05.  
-  
+  The world and US population figures came from 
+"Total Population - Both Sexes", World Population 
+Prospects 2015, published by the Population Division 
+of the Department of Economic and Social Affairs of 
+the United Nations accessed 2016-09-05 (at a web link 
+that has since changed:  No longer at 
+\code{https://esa.un.org/unpd/wpp/Download/Standard/Population}, as it was when the data current used here was 
+downloaded, 2016-09-05.  Fortunately, as of 
+2020-02-09, such data seem to be available at 
+\url{https://population.un.org/wpp/Download/Standard/Population/}.   
+
   \href{http://www.mortality.org/}{Human Mortality Database.  University of California, Berkeley (USA), and Max Planck Institute for Demographic Research (Germany).}
 }
 \references{

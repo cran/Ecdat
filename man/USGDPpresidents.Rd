@@ -16,16 +16,20 @@
   However, no comparable growth spurts in GDP per capita 
   catch the eye in a plot of log(GDP per capita) from 
   1790 to 2015, whether associated with a war or not, 
-  using the \href{https://measuringworth.com/}{Measuring 
-  Worth} data.  The only other features of that plot that 
-  seem visually comparable are the economic disaster of 
-  Herbert Hoover's presidency (when GDP per capital fell 
-  by 10 percent per year, 1929-1932), the impressive 
-  growth of the US economy during the first seven years 
-  of Franklin Roosevelt's presidency (6.4 percent per 
-  year, 1933-1940), and the post-World War II recession
-  (when GDP per capita fell by 7.9 percent per year, 
-  1945-1947).  
+  using data from Measuring Worth.  The only other 
+  features of that plot that seem visually comparable are 
+  the economic disaster of Herbert Hoover's presidency 
+  (when GDP per capital fell by 10 percent per year, 
+  1929-1932), the impressive growth of the US economy 
+  during the first seven years of Franklin Roosevelt's
+  presidency (6.4 percent per year, 1933-1940), and the 
+  post-World War II recession (when GDP per capita fell by 
+  7.9 percent per year, 1945-1947).  (NOTE:  The web
+  site for Measuring Worth, 
+  \code{https://measuringworth.com/} still works, 
+  but is not currently maintained to current internet
+  security standards.  Therefore, the link is 
+  provided here in text but not as a not link.)
   
   Closer inspection of this plot suggests that the US 
   economy has generally grown faster after FDR than 
@@ -43,10 +47,14 @@
   This data set provides a platform for testing the effects 
   of presidency, war, and Keynes.  It does this by 
   combining the numbers for US population and real GDP per 
-  capital dollars from \href{https://measuringworth.com/}{
-  Measuring Worth}  with the presidency and a list of major 
-  wars and an estimate of the battle deaths by year per 
-  million population.  
+  capital dollars from Measuring Worth with the presidency 
+  and a list of major wars and an estimate of the battle
+  deaths by year per million population.  (As noted above, 
+  the web address for measuring worth, 
+  \code{https://measuringworth.com/}, often gives 
+  security warnings but still seems to provide the 
+  data as before.)  
+  
   \href{https://en.wikipedia.org/wiki/Unemployment_in_the_United_States#Historical_unemployment_rate_charts}{US unemployment is 
   also considered.}
 }
@@ -151,18 +159,18 @@ data(USGDPpresidents)
       "Spanish-American-Philippine" war.  
       
       \href{http://correlatesofwar.org/}{The Correlates of 
-      War (COW)} data include multiple US uses of military force 
-      during the Vietnam War era.  It starts with "Vietnam 
-      Phase 1", 1961-65, with 506 battle deaths in the COW 
-      data base.  It includes the "Second Laotian" war phases 
-      1 and 2, plus engagement with a "Communist Coalition"
-      and Kmer Rouge as well as actions in the Dominican 
-      Republic and Guatemala.  The current 
-      \code{\link{data.frame}} includes only "Vietnam", 
-      referring primarily to COW's "Vietnam War, Phase 2", 
-      1965-1973.  The associated battle deaths include 
-      battle deaths from these other, lesser concurrent 
-      conflicts.  
+      War (COW)} data include multiple US uses of military
+      force  during the Vietnam War era.  It starts with
+      "Vietnam Phase 1", 1961-65, with 506 battle deaths 
+      in the COW data base.  It includes the "Second 
+      Laotian" war phases 1 and 2, plus engagement with a
+      "Communist Coalition" and Khmer Rouge as well as 
+      actions in the Dominican Republic and Guatemala.  
+      The current \code{\link{data.frame}} includes 
+      only "Vietnam", referring primarily to COW's 
+      "Vietnam War, Phase 2", 1965-1973.  The associated
+      battle deaths include battle deaths from these 
+      other, lesser concurrent conflicts.  
 
       The COW data currently ends in 2007.  However, the 
       post-2000 conflicts in Afghanistan and Iraq averaged 
@@ -212,17 +220,20 @@ data(USGDPpresidents)
     }
   }
 }
-\details{rownames(USGDPpresidents) = Year}
+\details{
+  \code{rownames(USGDPpresidents) = Year}
+}
 \source{
-  \href{https://www.measuringworth.org/usgdp/}{Louis 
-  Johnston and Samuel H. Williamson, "What Was the U.S. GDP 
-  Then?", Measuring Worth}, accessed 2015-09-08.  
-  
-  \href{https://www.measuringworth.com/uscpi/}{Lawrence 
-  H. Officer and Samuel H. Williamson (2015) 'The Annual 
-  Consumer Price Index for the United States, 1774-2014,' 
-  MeasuringWorth}, accessed 2015-09-19.     
-  
+  Louis Johnston and Samuel H. Williamson, 
+  "What Was the U.S. GDP Then?", Measuring Worth, 
+  accessed 2015-09-08.  (NOTE:  This came from 
+  \code{https://www.measuringworth.org/usgdp/}.  
+  this web link generally works as of 2020-02-09 
+  but routinely returns a warning, e.g., 
+  "SSL certificate problem".  The web site 
+  seems to be good but not maintained to
+  current security stqndards.)  
+
   Sarkees, Meredith Reid; Wayman, Frank (2010). 
   \href{http://correlatesofwar.org/data-sets/COW-war}{
   "The Correlates of War Project: COW War Data, 1816 - 
@@ -251,9 +262,9 @@ data(USGDPpresidents)
   Statistics, 55(1): 46-55. 
   
   The unemployment data since 1940 are from series 
-  LNS14000000 from the Curent Population Survey.  These 
+  LNS14000000 from the Current Population Survey.  These 
   data are available as a monthly series from the 
-  [Current Population Survey of the Bureau of Labor Statistics](https://www.bls.gov/cps/). 
+  \href{https://www.bls.gov/cps/}{Current Population Survey of the Bureau of Labor Statistics}. 
   
   \href{http://www.yttwebzine.com/yesterday/2013/10/28/75757/population_13_colonies_chart}{Chuck Springston, 
   "Population of the 13 Colonies 1610-1790", 
