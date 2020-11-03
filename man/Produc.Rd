@@ -23,7 +23,10 @@
     \item{util}{other public buildings and structures}
     \item{pc}{public capital}
     \item{gsp}{gross state products}
-    \item{emp}{labor input measured by the employment in non--agricultural payrolls}
+    \item{emp}{
+      labor input measured by the employment in 
+      non--agricultural payrolls
+    }
     \item{unemp}{state unemployment rate}
   }
 }
@@ -34,7 +37,7 @@
 
 }
 \references{
-    Baltagi, Badi H. (2003) \emph{Econometric analysis of panel data}, John Wiley and sons, \url{http://www.wiley.com/legacy/wileychi/baltagi/}.
+    Baltagi, Badi H. (2003) \emph{Econometric analysis of panel data}, John Wiley and sons, \url{https://www.wiley.com/legacy/wileychi/baltagi/}.
 }
 \seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}},
 

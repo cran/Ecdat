@@ -5,11 +5,11 @@
 \description{
   a cross-section from 2000
 
- \emph{number of observations} :  308
+  \emph{number of observations} :  308
 
- \emph{observation} :  goods
+  \emph{observation} :  goods
 
-   \emph{country} :  Singapore
+  \emph{country} :  Singapore
 
 }
 \usage{data(Diamond)}
@@ -17,7 +17,10 @@
   \describe{
     \item{carat}{weight of diamond stones in carat unit}
     \item{colour}{a factor with levels (D,E,F,G,H,I)}
-    \item{clarity}{a factor with levels (IF,VVS1,VVS2,VS1,VS2)}
+    \item{clarity}{
+      a factor with levels 
+      (\code{IF,VVS1,VVS2,VS1,VS2})
+    }
     \item{certification}{
       certification body, a factor with levels (
       \code{GIA}, \code{IGI}, \code{HRD})
@@ -31,7 +34,7 @@
 }
 \references{
       Journal of Statistics Education's data archive : 
-  \url{http://www.amstat.org/publications/jse/jse_data_archive.htm}.
+  \url{http://jse.amstat.org/jse_data_archive.htm}.
 }
 \seealso{\code{\link{Index.Source}}, \code{\link{Index.Economics}}, \code{\link{Index.Econometrics}}, \code{\link{Index.Observations}}}
 

@@ -21,11 +21,12 @@
     \item{grspan}{grade span of district}
     \item{enrltot}{total enrollment}
     \item{teachers}{number of teachers}
-    \item{calwpct}{percent qualifying for CalWorks}
+    \item{calwpct}{percent qualifying for CalWORKS}
     \item{mealpct}{percent qualifying for reduced-price lunch}
     \item{computer}{number of computers}
     \item{testscr}{
-      average test score (read.scr+math.scr)/2
+      average test score 
+      \code{(read.scr+math.scr)/2}
     }
     \item{compstu}{computer per student}
     \item{expnstu}{expenditure per student}
@@ -37,7 +38,7 @@
   }
 }
 \source{
-    California Department of Education \url{http://www.cde.ca.gov}.
+    California Department of Education \url{https://www.cde.ca.gov}.
 
 }
 \references{

@@ -9,9 +9,9 @@
   code itself (written by congress) and
   regulations (written by government 
   administrators).  For 2015 only 
-  \code{EntireTaxCodeAndRegs} is given;  for other
-  years, this number is broken down by income
-  tax vs. other taxes and code vs. 
+  \code{EntireTaxCodeAndRegs} is given;  for 
+  other years, this number is broken down by 
+  income tax vs. other taxes and code vs. 
   regulations.  
 }
 \usage{data(UStaxWords)}
@@ -59,9 +59,9 @@
   Thousands of words in the US tax code and 
   federal tax regulations, 1955-2015.  This
   is based on data from the Tax Foundation
-  (taxfoundation.org), adjusted to eliminate
-  an obvious questionable observation in
-  \code{otherTaxRegulations} for 1965.  The
+  (\code{taxfoundation.org}), adjusted to 
+  eliminate an obvious questionable observation 
+  in \code{otherTaxRegulations} for 1965.  The
   numbers of words in 
   \code{otherTaxRegulations} was not reported
   directly by the Tax Foundation but is
@@ -122,11 +122,10 @@
   other tax code.
 }
 \source{
-  \href{http://taxfoundation.org/article/number-words-internal-revenue-code-and-federal-tax-regulations-1955-2005}{Tax
+  \href{https://taxfoundation.org/number-words-internal-revenue-code-and-federal-tax-regulations-1955-2005}{Tax
     Foundation:  Number of Words in Internal Revenue Code and Federal
     Tax Regulations, 1955-2005}
-  Scott Greenberg, \href{http://taxfoundation.org/blog/federal-tax-laws-and-regulations-are-now-over-10-million-words-long}{"Federal Tax Laws and Regulations are
-  Now Over 10 Million Words Long", October 08, 2015}
+  Scott Greenberg, \href{https://taxfoundation.org/federal-tax-laws-and-regulations-are-now-over-10-million-words-long/}{"Federal Tax Laws and Regulations are Now Over 10 Million Words Long", October 08, 2015}
 }
 \references{
   J. Scott Moody, Wendy P. Warcholik, and Scott A. Hodge (2005) "The
