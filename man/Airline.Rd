@@ -17,7 +17,7 @@
   \describe{
     \item{airline}{airline}
     \item{year}{year}
-    \item{cost}{total cost, in \$1,000}
+    \item{cost}{total cost, in $1,000}
     \item{output}{output, in revenue passenger miles, 
       index number}
     \item{pf}{fuel price}
@@ -25,7 +25,7 @@
   }
 }
 \references{
-    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, \url{http://www.prenhall.com/greene/greene1.html}, Table F7.1.
+    Greene, W.H. (2003) \emph{Econometric Analysis}, Prentice Hall, \url{https://archive.org/details/econometricanaly0000gree_f4x3}, Table F7.1.
 
 }
 \seealso{
