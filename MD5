@@ -1,9 +1,9 @@
-4ab7d6c6a1ef6ae9a50f3eecab71951d *DESCRIPTION
+6a16008d0b96e7ca04b6efb0514a8c26 *DESCRIPTION
 f514afdec4f32d887dd769df1b6591dd *NAMESPACE
-ff5e57ebafd399084517c7c54e7ab7ab *NEWS
+5e78b82894919d8e420435e76333e230 *NEWS
 2fd91aadf7f188abf13fdafe0d86f9b5 *README
-b6fcee0687e2bbf3b1b2ce3cc21253e9 *README.md
-1961639f6f4f7f9efffa91b624b3d060 *build/partial.rdb
+50fefc62f3cad0e6231f49868c2b2dbf *README.md
+0c6ad5b3446721162c89589e8077ab1c *build/partial.rdb
 0f5ada2e1070de605367f89ec52fd5ac *data/Accident.rda
 2058aaaa0907b54f5bd67f56da50f5b2 *data/AccountantsAuditorsPct.rda
 f6c989134f9fb2930dc6402812edad4b *data/Airline.rda
@@ -143,10 +143,10 @@ cf54a9037bd53b8b32523ba78e5247b3 *data/bankingCrises.rda
 41ec526e73b2c7540857da36e1864506 *data/politicalKnowledge.rda
 ab895d9ec3168ff4a684981014152690 *data/terrorism.rda
 3704b4050209894396a36dea82f0c55c *inst/WORDLIST
-2888f5ed98cc9136bfb903c65f8d5c7a *inst/demoFiles/NIPA6.16A20090820.csv
-3dc6406982d4a38d991d8871d4c42221 *inst/demoFiles/NIPA6.16B20080817.csv
-d41d7c38a2ba4958940efa64197a1a90 *inst/demoFiles/NIPA6.16C20080817.csv
-d1b7488abc23cf5910da611716fca6d2 *inst/demoFiles/NIPA6.16D20130130.csv
+93600cf123f4aa10096278014c9e7471 *inst/demoFiles/NIPA6.16A20090820.csv
+9ced1575ba3579475177ee2e8e48fa00 *inst/demoFiles/NIPA6.16B20080817.csv
+62beac0ede3efac472a8d8afab091077 *inst/demoFiles/NIPA6.16C20080817.csv
+5270daa08fc609a70d114fabc95b250d *inst/demoFiles/NIPA6.16D20130130.csv
 5efa827dcd35e8ec70e2874f67cd2237 *inst/scripts/F1.PikettySaez.R
 a8bca126af199bebcab5055d05b9b293 *man/Accident.Rd
 e354ce09f7eb8208499a1c79815fc9b8 *man/AccountantsAuditorsPct.Rd
@@ -266,7 +266,7 @@ f098f65dae25b7257f788052a879367a *man/USFinanceIndustry.Rd
 87fbd72a8ff64baca9b3daf055e7bb2e *man/USGDPpresidents.Rd
 c7cbc6d2629685793bf9a6dfae995d46 *man/USPS.Rd
 35172913352c1af3cc4b696693df4634 *man/USclassifiedDocuments.Rd
-5da800a4ac8edcafa613acb32674ad2b *man/USincarcerations.Rd
+3f2a91b194d9c5ffb79140ff9c3b3052 *man/USincarcerations.Rd
 fad0953283c6d7ddf2420ba0a352ca3b *man/USnewspapers.Rd
 8e29a35a2dcef952eca6e9c6e3daa79d *man/USstateAbbreviations.Rd
 e070eb397a95c89dc50bd92c6efbc9f1 *man/UStaxWords.Rd
@@ -287,4 +287,4 @@ c54b20fc29005c7a41860bd1f1630dae *man/incomeInequality.Rd
 d73984071d1b1a62e02fa91d32476134 *man/nonEnglishNames.Rd
 aef6d19e2a09b93eb4d77c5eddccb329 *man/nuclearWeaponStates.Rd
 59f510818dc4b397e172e85f09b6cd32 *man/politicalKnowledge.Rd
-3d29edb4ab228a1aab6fadffad21243e *man/terrorism.Rd
+8305405e0bc3bd1d907be034a04fc409 *man/terrorism.Rd
