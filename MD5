@@ -1,6 +1,6 @@
-6a16008d0b96e7ca04b6efb0514a8c26 *DESCRIPTION
+80b8831a9e4547cd71fb81bc0a193a09 *DESCRIPTION
 f514afdec4f32d887dd769df1b6591dd *NAMESPACE
-5e78b82894919d8e420435e76333e230 *NEWS
+428f679923d11432356a435d90fee456 *NEWS.md
 2fd91aadf7f188abf13fdafe0d86f9b5 *README
 50fefc62f3cad0e6231f49868c2b2dbf *README.md
 0c6ad5b3446721162c89589e8077ab1c *build/partial.rdb
@@ -135,14 +135,14 @@ eecf7d1f486ea03881cbba421e5fda85 *data/Yen.rda
 cf54a9037bd53b8b32523ba78e5247b3 *data/bankingCrises.rda
 50bf15cdabb3a3b82e9a7c72af250810 *data/breaches.rda
 682231690295214056f043a79b7f146d *data/coolingFromNuclearWar.rda
-22d28db58831ca1a7fec14e9ef35a054 *data/incidents.byCountryYr.rda
+bc5a95ae1b9ad184fd05c48cae4160d2 *data/incidents.byCountryYr.rda
 838a943a179f47805347b89faad81fc9 *data/incomeInequality.rda
-2680f847dc064d044371756aa8b99865 *data/nkill.byCountryYr.rda
+4fa210d0dd9c20eb6fa14941655bbadc *data/nkill.byCountryYr.rda
 32fe00a80f93a5fd28bc5aaed122a938 *data/nonEnglishNames.rda
 9fdfbb6d82b4b15a84aab1ca71d80621 *data/nuclearWeaponStates.rda
 41ec526e73b2c7540857da36e1864506 *data/politicalKnowledge.rda
-ab895d9ec3168ff4a684981014152690 *data/terrorism.rda
-3704b4050209894396a36dea82f0c55c *inst/WORDLIST
+222f9e3a9162ce93440865ac34c0e7c4 *data/terrorism.rda
+82f8271672fd1d5bd3cddf57a15a49d9 *inst/WORDLIST
 93600cf123f4aa10096278014c9e7471 *inst/demoFiles/NIPA6.16A20090820.csv
 9ced1575ba3579475177ee2e8e48fa00 *inst/demoFiles/NIPA6.16B20080817.csv
 62beac0ede3efac472a8d8afab091077 *inst/demoFiles/NIPA6.16C20080817.csv
@@ -263,7 +263,7 @@ ce945f91b72a185fb9082db6dc078153 *man/TranspEq.Rd
 4a013527678e3585bba26b90621ee8d6 *man/Treatment.Rd
 f2033a7195d96d3325208c3369c65452 *man/Tuna.Rd
 f098f65dae25b7257f788052a879367a *man/USFinanceIndustry.Rd
-87fbd72a8ff64baca9b3daf055e7bb2e *man/USGDPpresidents.Rd
+ea95745d5b448d6deb200a6db9fb1df0 *man/USGDPpresidents.Rd
 c7cbc6d2629685793bf9a6dfae995d46 *man/USPS.Rd
 35172913352c1af3cc4b696693df4634 *man/USclassifiedDocuments.Rd
 3f2a91b194d9c5ffb79140ff9c3b3052 *man/USincarcerations.Rd
@@ -285,6 +285,6 @@ b2c649c7c77c47db9f7622c66d52958f *man/bankingCrises.Rd
 617f69bab4727b9d0f2d5211ed08378e *man/coolingFromNuclearWar.Rd
 c54b20fc29005c7a41860bd1f1630dae *man/incomeInequality.Rd
 d73984071d1b1a62e02fa91d32476134 *man/nonEnglishNames.Rd
-aef6d19e2a09b93eb4d77c5eddccb329 *man/nuclearWeaponStates.Rd
+61213318a1dc5b15dc0b00dfbe75b43c *man/nuclearWeaponStates.Rd
 59f510818dc4b397e172e85f09b6cd32 *man/politicalKnowledge.Rd
-8305405e0bc3bd1d907be034a04fc409 *man/terrorism.Rd
+b981d93ccad71dfb16adb42e1d1749fb *man/terrorism.Rd
