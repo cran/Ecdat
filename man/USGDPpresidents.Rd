@@ -16,7 +16,7 @@
   
   However, no comparable growth spurts in GDP per 
   capita catch the eye in a plot of 
-  \code{log(GDP per capita)} from 1790 to 2015,
+  \code{log(GDP per capita)} from 1790 to 2024,
   whether associated with a war or not, using data
   from Measuring Worth.  The only other features 
   of that plot that seem visually comparable are 
@@ -59,9 +59,6 @@
   \code{https://measuringworth.com/}, often gives 
   security warnings but still seems to provide the 
   data as before.)  
-  
-  \href{https://en.wikipedia.org/wiki/Unemployment_in_the_United_States#Historical_unemployment_rate_charts}{US unemployment is 
-  also considered.}
 }
 \usage{
 data(USGDPpresidents)
@@ -71,7 +68,7 @@ data(USGDPpresidents)
   \describe{
     \item{Year}{ 
       integer: the year, 
-      \code{c(seq(1610, 1770, 10), 1774:2015)}
+      \code{c(seq(1610, 1770, 10), 1774:2024)}
     } 
     \item{CPI}{
       Numeric:  U. S. Consumer Price Index per
@@ -80,8 +77,8 @@ data(USGDPpresidents)
     }    
     \item{GDPdeflator}{
       numeric:  Implicit price deflators for 
-      Gross Domestic Product with 2012 = 100 
-      per Johnston and Williamson.    
+      Gross Domestic Product with 2017 = 100 
+      per Williamson (2025). 
     }
     \item{population.K}{ 
       integer:  US population in thousands.  
@@ -96,7 +93,7 @@ data(USGDPpresidents)
     }
     \item{realGDPperCapita}{
       numeric:  real Gross Domestic Product 
-      (GDP) per capita in 2012 dollars since 
+      (GDP) per capita in 2017 dollars since 
       1790.   
       
       Real \code{GDP} = 
@@ -240,7 +237,12 @@ data(USGDPpresidents)
       John Maynard Keynes}. 
     }
     \item{unemployment}{
-      Estimated US unemployment rate 
+      Estimated US unemployment rate in percent 
+      per the sources cited in the 
+      \href{https://en.wikipedia.org/wiki/Unemployment_in_the_United_States#Historical_unemployment_rate_charts}{Historical unemployment rate charts
+} section of the Wikipedia article on 
+      \href{https://en.wikipedia.org/wiki/Unemployment_in_the_United_States}{Unemployment in the United States
+}. 
     }
     \item{unempSource}{
       \code{\link{ordered}} giving the source for 
@@ -252,7 +254,6 @@ data(USGDPpresidents)
         \item{1930-1939}{Coen}
         \item{1940-present}{BLS}
       }
-      
       Clearly, the more recent numbers should be 
       more accurate.  
     }
@@ -271,14 +272,23 @@ data(USGDPpresidents)
       sets of years.  The numbers from 1901 to 
       1933 are the same in both sources.  
       
-      We used The White House (2022) for the more
-      recent numbers with one exception:  Between 
-      1976 and 1977 the fiscal year was changed 
-      from starting July 1 to October 1.  July, 
-      August, and September, 1976, is called the 
-      "transitional quarter", and has been 
-      deleted from this dataset.  
+      On 2022-02-22, we used The White House 
+      (2022) for the more recent numbers with 
+      one exception: Between 1976 and 1977 the 
+      fiscal year was changed from starting July 
+      1 to October 1. July, August, and September, 
+      1976, is called the "transitional quarter", 
+      and has been deleted from this dataset.  
       
+      On 2025-01-22, the comparable data was
+      found on a different web address but seemed
+      to be largely the same except that it said 
+      it was updated to 2023-03-28, just over a 
+      month after the previous update. That 
+      gave data starting in 2022 as "estimates". 
+      Since we could not find better numbers, 
+      we used those. 
+
       NOTES: 
       
       The numbers for 1843 are for only the 
@@ -294,8 +304,8 @@ data(USGDPpresidents)
       than three.  
     }
     \item{fedDebt}{
-      US federal government debt in millions of 
-      current dollars per \code{FiscalData} (2022).  
+      US federal government debt in current 
+      dollars per \code{FiscalData} (2025).  
       This matches Y 338 in United States 
       Census Bureau (1975) 1921-1939 but not 
       earlier, and Y 338 ends with 1939.  
@@ -304,7 +314,19 @@ data(USGDPpresidents)
       they are as of July 1.  The earlier 
       numbers are as of January 1.  
       
-      \code{FiscalData} (2022) includes debt 
+      These numbers are NOT a simple 
+      \code{\link{cumsum}} of 
+      \code{fedSurplus}. It's not clear 
+      the sources of the discrepancies, 
+      but the following seem likely: First, 
+      the published budget may not include 
+      interest on the national debt. Second, 
+      there are likely expenditures / 
+      outlays that are "Off-budget" and 
+      perhaps otherwise hidden from the 
+      public.
+      
+      \code{FiscalData} (2025) includes debt 
       for both January 1 (20 million) and 
       July 1 (33 million) for 1843.  For
       present purposes, we omit the 
@@ -318,20 +340,33 @@ data(USGDPpresidents)
       be to delete the 33 million, but 
       that would understate the volatility 
       of the debt during that period. 
+      
+      Prior to 1844, the national debt was 
+      reported for January 1. Between 1843 
+      and 1920, it was reported for July 1. 
+      From 1921 to 1976, it was reported 
+      for June 28, 29 or 30, usually for 
+      June 30; four years in that period it 
+      was reported for June 29 and once for 
+      June 28. Since 1977, it has been 
+      reported for September 28, 29 or 30, 
+      usually for September 30, only once 
+      for September 28 and once for 
+      September 29. 
     }
     \item{fedReceipts_pGDP, fedOutlays_pGDP, 
       fedSurplus_pGDP, fedDebt_pGDP}{
       numeric = \code{fedReceipts}, 
       \code{fedOutlays}, \code{fedSurplus}, 
-      and \code{fedDebt} divided by 
-      \code{(population.K * realGPDperCapita / (GDPdeflator))}, 
-      except for the single year 1843, 
-      for which \code{fedReceipts}, 
+      and \code{fedDebt} as a portion of GDP, 
+      which is \code{population.K * 
+      realGPDperCapita / (.01*GDPdeflator)}. 
+      
+      For the single year 1843, \code{fedReceipts}, 
       \code{fedOutlays}, and \code{fedSurplus} 
       were for only the first six months;  to 
       compute \code{*_pGDP} for these numbers 
-      for 1843 only, the denominator in this 
-      formula is cut in half to compensate.  
+      for 1843 only, the denominator was cut in half.
     }
   }
 }
@@ -345,8 +380,9 @@ data(USGDPpresidents)
   The Review of Economics and Statistics, 55(1): 
   46-55. 
   
-  \code{FiscalData} (2022) 
-  \href{https://fiscaldata.treasury.gov/datasets/historical-debt-outstanding/historical-debt-outstanding}{"Historical Debt Outstanding"}, accessed 2022-04-11. 
+  \code{FiscalData} (2024) 
+  \href{https://fiscaldata.treasury.gov/datasets/historical-debt-outstanding/historical-debt-outstanding}{"Historical Debt Outstanding"}, 
+  accessed 2025-01-22. 
   
   Louis Johnston and Samuel H. Williamson, 
   "What Was the U.S. GDP Then?", Measuring Worth, 
@@ -379,12 +415,16 @@ data(USGDPpresidents)
   "The Correlates of War Project: COW War Data, 1816 - 
   2007 (v4.0)"}, accessed 2015-09-02.  
   
-  The White House (2022).  
-  \href{https://www.whitehouse.gov/omb/budget/historical-tables/}{Historical Tables}:  
-  Spreadsheets:  Table 1.1-Summary of Receipts, Outlays, 
-  and Surpluses or Deficits (-): 1789-2026, accessed 
-  2022-02-22.  
-  
+  The White House (2022). 
+  \href{https://www.whitehouse.gov/omb/information-resources/budget/historical-tables/}{
+  On 2025-08-22, I saw "Historical Tables" in 3 places on that 
+  page.} I clicked on the bottom one and got, 
+  "BUDGET-2026-HIST.xlsx". The file I got doing this on 
+  2025-01-22 included "Table 1.1-Summary of Receipts, Outlays, 
+  and Surpluses or Deficits (-): 1789-2026" included budget 
+  forecasts. The version of this table I got 2025-08-22 
+  included data through 2024 but no forecasts. 
+
   United States Census Bureau (1975) 
   \href{https://www.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970.html}{Bicentennial Edition: Historical Statistics of the United States, Colonial Times to 1970}, 
   Part 2.  Chapter Y. Government, accessed 2022-02-22.  
@@ -402,68 +442,168 @@ data(USGDPpresidents)
   a monthly series from the 
   \href{https://www.bls.gov/cps/}{Current Population Survey of the Bureau of Labor Statistics}. 
   
-  \href{http://www.yttwebzine.com/yesterday/2013/10/28/75757/population_13_colonies_chart}{Chuck Springston, 
+  \href{https://web.archive.org/web/20210216112807/http://www.yttwebzine.com/yesterday/2013/10/28/75757/population_13_colonies_chart}{Chuck Springston, 
   "Population of the 13 Colonies 1610-1790", 
   October 28, 2013}
+  
+  \href{https://www.measuringworth.com/datasets/usgdp/}{ Samuel H. Williamson, "What Was the U.S. GDP Then?" MeasuringWorth, 2025}
 }
 %\references{}
 \author{Spencer Graves}
 %\seealso{}
 \examples{
-##
-## GDP, Presidents and Wars 
-##
 data(USGDPpresidents)
-(wars <- levels(USGDPpresidents$war))
-nWars <- length(wars)
-plot(realGDPperCapita/1000~Year, 
-     USGDPpresidents, log='y', type='l', 
-     ylab='average annual income (K$)', 
-     las=1)     
-abline(v=c(1929, 1933, 1945), lty='dashed')
-text(1930, 2.5, "Hoover", srt=90, cex=0.9)
-text(1939.5, 30, 'FDR', srt=90, cex=1.1, col='blue')
-
-# label wars
-(logGDPrange <- log(range(USGDPpresidents$realGDPperCapita, 
-                    na.rm=TRUE)/1000))
-(yrRange <- range(USGDPpresidents$Year))
-(yrMid <- mean(yrRange))
-for(i in 2:nWars){
-  w <- wars[i]
-  sel <- (USGDPpresidents$war==w)
-  yrs <- range(USGDPpresidents$Year[sel])
-  abline(v=yrs, lty='dotted', col='grey')
-  yr. <- mean(yrs)
-  w.adj <- (0.5 - 0.6*(yr.-yrMid)/diff(yrRange))
-  logy <- (logGDPrange[1]+w.adj*diff(logGDPrange))
-  y. <- exp(logy)
-  text(yr., y., w, srt=90, col='red', cex=0.5)
-}
-
 ##
-## CPI v. GDPdeflator
+## FUNCTION TO plot GDP, Presidents and Wars 
 ## 
-plot(GDPdeflator~CPI, USGDPpresidents, type='l', 
-     log='xy')
-     
+plotUSGPDpresidents <- function(y, Ylab, Scale=1, 
+        Ylim=NA, Log='y', x='Year', Xmin=NA, Type='l', 
+        epocs = c(1929, 1933, 1945), epocy=c(.2, .8), 
+        epocNames = c('Hoover', 'FDR'), epocex=c(0.9, 1.1), 
+        war='war', warShade=c(lty='dotted', col='grey'), 
+        Data=USGDPpresidents, ...){
+  ##
+  ## 1. y
+  ##
+  Y <- (Scale* Data[, y])
+  if(any(is.na(Ylim))){
+    if(is.na(Ylim[1])) {
+      if(length(grep('y',Log)>0)){
+        Y0 <- (Y<=0)
+        n0 <- sum(Y0, na.rm=TRUE)
+        if(n0>0){
+          cat(n0, ' nonpositive observations ignored/n')
+          Y[Y0] <- NA
+        }
+      } 
+      Ylim[1] <- min(Y, na.rm=TRUE)
+    }
+    if(length(Ylim)<2 || is.na(Ylim[2])){
+      Ylim[2] <- max(Y, na.rm=TRUE)
+    }
+  }
+  ##
+  ## 2. Xmin > Xlim
+  ##
+  if(is.na(Xmin)){
+    imin <- which.max(!is.na(Y))
+    Xmin <- Data[imin, x]
+  }
+  Xlim <- c(Xmin, max(Data[, x]))
+  ##
+  ## 3. plot
+  ##
+  plot(Data[, x], Y, log=Log, type=Type, 
+       xlim=Xlim, xlab='', ylim=Ylim,
+       ylab=Ylab, las=1, ...)  
+  ##
+  ## 4. epocs
+  ##
+  abline(v=epocs, lty='dashed')
+  if(length(grep('y',Log)>0)){
+    lYlim <- log(Ylim)
+    yep <- exp(epocy*lYlim[1]+(1-epocy)*lYlim[2])
+  } else {
+    yep <- (epocy*Ylim[1]+(1-epocy)*Ylim[2])
+  }
+  for(i in 1:length(epocy)){
+    ix <- mean(epocs[i+0:1])
+    text(ix, yep[i], epocNames[i], srt=90, 
+         cex=epocex[i])
+  }
+  ##
+  ## 5. wars
+  ##
+  if(!is.null(war) && !is.na(war) &&
+     !is.na(match(war, names(Data))))  {
+    selWar <- (Data[, war]!='')
+    abline(v=Data[selWar, x], lty=warShade['lty'], 
+           col=warShade['col'])
+  }
+}
 ##
-## Unemployment 
+##** Plot the first four variables
 ##
-plot(unemployment~Year, USGDPpresidents, type='l')
+plotUSGPDpresidents('CPI', Ylab='Consumer Price Index')
+plotUSGPDpresidents('GDPdeflator', Ylab='GDP deflator')
+plotUSGPDpresidents('population.K', Ylab='population (M)', 
+                   Scale=0.001)
+plotUSGPDpresidents('realGDPperCapita', 
+                   Ylab='GDP per capita (2017K$)', Scale=0.001)
 
 ##
-## federal outlays, pct of GDP 
+##** Table exective and war
 ##
-sel <- !is.na(USGDPpresidents$fedOutlays_pGDP)
-plot(100*fedOutlays_pGDP~Year, 
-     USGDPpresidents[sel,], type='l', log='y', 
-     xlab='', ylab='US federal outlays, pct of GDP')
-abline(h=2:3)
-war <- (USGDPpresidents$war !='')
-abline(v=USGDPpresidents$Year[war], 
-  lty='dotted', col='light gray')
-abline(v=c(1929, 1933), col='red', lty='dotted')
-text(1931, 22, 'Hoover', srt=90, col='red')
+table(USGDPpresidents[, 'executive'])
+table(USGDPpresidents[, 'war'])
+
+##
+##** plot battleDeaths 
+##** battledeathsPMP = per million population
+##
+plotUSGPDpresidents('battleDeaths', Ylab='battle deaths (K)', 
+                   Scale=0.001, lwd=3)
+
+(MAw <- grep('Mex', USGDPpresidents[, 'war']))
+USGDPpresidents[MAw,]
+
+plotUSGPDpresidents('battleDeathsPMP', 
+                   Ylab='battle deaths per million pop', lwd=3)
+##
+##** plot Keynes
+##
+plotUSGPDpresidents('Keynes', Log='', Ylab='Keynes')
+selKeynes <- (USGDPpresidents[, 'Keynes']==1)
+range(USGDPpresidents[selKeynes, 'Year'])
+##
+##** plot unemployment
+##
+plotUSGPDpresidents('unemployment', Ylab='unemployment (\%)')
+# Estimated US unemployment rate in percent
+# per the sources cited in the section on 
+# "Historical unemployment rate charts"
+# in the Wikipedia article on 
+# "Unemployment in the United States"
+
+# table unemployment source
+table(USGDPpresidents[, 'unempSource'])
+
+##
+##** plot budget analyses
+##
+plotUSGPDpresidents('fedReceipts', Ylab="fed receipts ($M)")
+plotUSGPDpresidents("fedReceipts", Ylab="fed receipts ($B)", 
+                   Scale=0.001)
+abline(h=1)
+plotUSGPDpresidents("fedOutlays", Ylab="fed outlays ($B)", 
+                   Scale=0.001)
+abline(h=1)
+
+plotUSGPDpresidents("fedSurplus", Ylab="fed outlays ($B)",
+                   Log='', Scale=0.001)
+
+Surplus <- with(USGDPpresidents, fedReceipts - fedOutlays)
+
+rSurp <- with(USGDPpresidents, fedSurplus/Surplus)
+plot(USGDPpresidents[, 'Year'], rSurp)
+# Discrepancies less than 1 percent
+
+plotUSGPDpresidents('fedDebt', 'fed debt ($B)',
+                   Scale=1e-9)
+
+plotUSGPDpresidents('fedReceipts_pGDP', 
+                   'fed receipts \% of GDP', Scale=100)
+plotUSGPDpresidents('fedOutlays_pGDP', 
+                   'fed outlays \% of GDP', Scale=100)
+plotUSGPDpresidents('fedSurplus_pGDP', 
+                   'fed surplus \% of GDP', Scale=100, Log='')
+
+plotUSGPDpresidents('fedDebt_pGDP', 
+                   'fed debt \% of GDP', Scale=100)
+(debtPrng <- range(USGDPpresidents[, 'fedDebt_pGDP'], na.rm=TRUE))
+plotUSGPDpresidents('fedDebt_pGDP', 
+                   'fed debt \% of GDP', Scale=100, 
+                   Ylim=c(1, 100*debtPrng[2]))
+abline(h=100)
 }
 \keyword{datasets}
